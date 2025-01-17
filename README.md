@@ -1,1 +1,1 @@
-# combayns2025.github.io
+# ComBayNS 2025 Workshop @ IJCNN 2025
