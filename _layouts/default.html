@@ -7,6 +7,19 @@
 </head>
 <body>
   {% include navbar.html %}
-  {{ content }}
+
+  {% if page.title == "Home" %}
+    <div class="hero">
+      <h1>Welcome to ComBayNS 2025!</h1>
+      <p>Combining Bayesian and Neural approaches for Structured data</p>
+      <a href="/submit/" class="cta">Submit Your Paper</a>
+    </div>
+  {% endif %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
 </body>
 </html>
