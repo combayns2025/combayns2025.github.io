@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
-  <h1>Welcome to ComBayNS!</h1>
-  <p>Combining Bayesian and Neural approaches for Structured data</p>
-  <a href="/" class="cta">Submit your work</a>
-</div>
-
 The **neural network** and **Bayesian** machine learning communities have historically struggled
 to come together due to philosophical differences and different metrics of success. Yet, there is
 much to gain by combining probabilistic approaches and neural architectures to endow the
