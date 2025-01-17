@@ -3,7 +3,11 @@ layout: default
 title: Home
 ---
 
-# Welcome to ComBayNS!
+<div class="hero">
+  <h1>Welcome to ComBayNS!</h1>
+  <p>Join us for an exciting exploration of [topics/themes].</p>
+<!--   <a href="/submit/" class="cta">Submit Your Paper</a> -->
+</div>
 
 The **neural network** and **Bayesian** machine learning communities have historically struggled
 to come together due to philosophical differences and different metrics of success. Yet, there is
