@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <h1>Welcome to ComBayNS!</h1>
   <p>Join us for an exciting exploration of [topics/themes].</p>
-  <a href="https://cmt3.research.microsoft.com/ijcnn2025/track/3/submission/create" class="cta">Submit</a> -->
+  <a href="https://cmt3.research.microsoft.com/ijcnn2025/track/3/submission/create" class="cta">Submit</a>
 </div>
 
 The **neural network** and **Bayesian** machine learning communities have historically struggled
