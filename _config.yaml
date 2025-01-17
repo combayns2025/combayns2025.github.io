@@ -3,3 +3,16 @@ description: "Combining Bayesian and Neural approaches for Structured data"
 theme: minima # or any Jekyll theme you like
 baseurl: "" # Update if the site is in a subdirectory
 url: "https://yourusername.github.io" # Your GitHub Pages URL
+
+
+nav:
+  - title: Home
+    url: /
+  - title: Events
+    url: /events/
+  # - title: Submit
+  #   url: /submit/
+  # - title: Call for Papers
+  #   url: /call-for-papers/
+  # - title: Contacts
+  #   url: /contacts/
