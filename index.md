@@ -20,7 +20,7 @@ will be published in IJCNN 2025 proceedings. Submissions should target the follo
 graphs, general geometries)
 - Dynamic variational methods for structured data
 - Bayesian nonparametrics for structured data
-- Probabcombayns2025@proton.meilistic rewiring on graphs
+- Probabilistic rewiring on graphs
 - Variational models for structured data generation
 - Flow-based models for structured data generation
 - Discrete and continuous diffusion probabilistic models for structured data generation
