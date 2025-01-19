@@ -8,8 +8,8 @@ url: "https://yourusername.github.io" # Your GitHub Pages URL
 nav:
   - title: Home
     url: /
-  - title: Events
-    url: /events/
+  - title: Program
+    url: /program/
   # - title: Submit
   #   url: /submit/
   # - title: Call for Papers
