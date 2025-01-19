@@ -19,3 +19,21 @@ The **neural network** and **Bayesian** machine learning communities have histor
 - Bayesian causal structure learning for explainable and trustworthy AI
 - Random walk approaches on structured data
 - Uncertainty modeling on structured data
+
+## Submission Guidelines
+1. Papers should be in **PDF format** and follow the [IJCNN submission guidelines for workshop papers](https://2025.ijcnn.org/authors/call-for-papers).
+2. Submit papers via the [CMT Portal](https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create).
+
+## Important Dates
+- **Submission Deadline:** March 30, 2025
+- **Notification of Acceptance:** TBD
+- **Camera-Ready Deadline:** TBD
+
+## Download CFP
+Click the link below to download the detailed Call for Papers in PDF format:
+
+[Download CFP (PDF)](/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf)
+
+---
+
+For more details or queries, please contact us at [combayns2025@proton.me](mailto:combayns2025@proton.me).
