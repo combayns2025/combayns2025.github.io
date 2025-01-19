@@ -109,6 +109,19 @@ footer {
   color: #666;
 }
 
+@media (max-width: 768px) {
+  .organizers-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 organizers per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .organizers-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 organizers per row on very small screens */
+  }
+}
+
+
 /* Call for Papers Page Styles */
 .call-for-papers a {
   color: #1d3557;
