@@ -22,7 +22,7 @@ The **neural network** and **Bayesian** machine learning communities have histor
 
 ## Submission Guidelines
 1. Papers should be in **PDF format** and follow the [IJCNN submission guidelines for workshop papers](https://2025.ijcnn.org/authors/call-for-papers).
-2. Submit papers via the [CMT Portal](https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create) (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA” when submitting)
+2. Submit papers via the [CMT Portal](https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create) (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)
 
 ## Important Dates
 - **Submission Deadline:** March 30, 2025
