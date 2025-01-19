@@ -25,7 +25,7 @@ The **neural network** and **Bayesian** machine learning communities have histor
 2. Submit papers via the [CMT Portal](https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create) (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)
 
 ## Important Dates
-- **Submission Deadline:** March 30, 2025
+- **Submission Deadline:** March 20, 2025
 - **Notification of Acceptance:** TBD
 - **Camera-Ready Deadline:** TBD
 
