@@ -353,3 +353,14 @@ main {
   color: #333;
   margin-bottom: 30px;
 }
+
+.custom-link {
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+  color: inherit; /* Ensures the color matches the surrounding text by default */
+  transition: color 0.3s ease; /* Smooth transition for hover color change */
+}
+
+.custom-link:hover {
+  color: #0077b6; /* Specify the hover color (e.g., a shade of blue) */
+}
