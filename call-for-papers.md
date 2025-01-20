@@ -26,9 +26,6 @@ permalink: /call-for-papers/
     <li>Uncertainty modeling on structured data</p></li>
   </ul>
 
-  
-</section>
-  
 <h2>Submission Guidelines</h2> 
 
 <ul>
@@ -47,8 +44,11 @@ permalink: /call-for-papers/
 
  <h2>Download CFP</h2>
 
-Click <a href="/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf">here</a>] to download the detailed Call for Papers in PDF format
+Click <a href="/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf">here</a> to download the detailed Call for Papers in PDF format
 
 <hr>
 
-For more details or queries, please contact us at [combayns2025@proton.me](mailto:combayns2025@proton.me).
+For more details or queries, please contact us at <a href="mailto:combayns2025@proton.me">combayns2025@proton.me</a>.
+
+</section>
+  
