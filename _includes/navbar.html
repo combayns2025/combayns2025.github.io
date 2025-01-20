@@ -1,7 +1,13 @@
-<nav>
-  <ul>
-    {% for item in site.nav %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
-  </ul>
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/" class="navbar-brand">Workshop</a>
+    <button class="navbar-toggle" aria-label="Toggle Navigation">
+      ☰
+    </button>
+    <ul class="navbar-menu">
+      {% for item in site.nav %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
