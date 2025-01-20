@@ -10,12 +10,6 @@ This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Confer
 - **Notification of Acceptance:** TBD
 - **Camera-Ready Deadline:** TBD
 
-<!-- Landing Page Hero Section -->
-<section id="hero">
-  <h1>Welcome to the Workshop</h1>
-  <p>Join us for an exciting event filled with insightful talks and networking opportunities.</p>
-</section>
-
 <!-- Program Section -->
 <section id="program">
   <h2>Program</h2>
