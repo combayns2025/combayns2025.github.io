@@ -31,7 +31,6 @@ title: Home
 <!-- Speakers Section -->
 <section id="speakers">
   <h2>Speakers</h2>
-  <p>TBD</p>
   <div class="speakers-container">
       <div class="speaker">
           <img src="/assets/images/placeholder.png" alt="Speaker 1">
