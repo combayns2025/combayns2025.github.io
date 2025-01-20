@@ -12,14 +12,6 @@ body {
 
 /* Navbar */
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* Ensure the navbar stays on top of other content */
-}
-
 nav ul {
   display: flex;
   justify-content: center;
@@ -149,6 +141,15 @@ section {
   background: #1d3557;
   color: #fff;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar stays on top of other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .navbar-container {
