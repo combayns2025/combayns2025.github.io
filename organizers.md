@@ -8,32 +8,32 @@ permalink: /organizers/
 
 <div class="organizers-container">
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Davide Bacciu">
+    <img src="/assets/images/bacciu.jpg" alt="Davide Bacciu">
     <h3>Davide Bacciu</h3>
     <p>University of Pisa</p>
   </div>
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Daniele Castellana">
+    <img src="/assets/images/castellana.jpg" alt="Daniele Castellana">
     <h3>Daniele Castellana</h3>
     <p>University of Firenze</p>
   </div>
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Federico Errica">
+    <img src="/assets/images/errica.jpg" alt="Federico Errica">
     <h3>Federico Errica</h3>
     <p>NEC Italy</p>
   </div>
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Mathias Niepert">
+    <img src="/assets/images/niepert.png" alt="Mathias Niepert">
     <h3>Mathias Niepert</h3>
     <p>University of Stuttgart</p>
   </div>
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Marco Podda">
+    <img src="/assets/images/podda.jpg" alt="Marco Podda">
     <h3>Marco Podda</h3>
     <p>University of Pisa</p>
   </div>
   <div class="organizer">
-    <img src="/assets/images/placeholder.png" alt="Olga Zaghen">
+    <img src="/assets/images/zaghen.png" alt="Olga Zaghen">
     <h3>Olga Zaghen</h3>
     <p>University of Amsterdam</p>
   </div>
