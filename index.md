@@ -20,39 +20,43 @@ This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Confer
 
 <!-- Organizers Section -->
 <section id="organizers">
-  <h2>Meet the Organizers</h2>
+  <h2>Workshop Organizers</h2>
   <div class="organizers-container">
     <div class="organizer">
-      <img src="/assets/images/organizer1.jpg" alt="Organizer 1">
-      <h3>Organizer 1</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/bacciu.jpeg" alt="Davide Bacciu">
+      <h3>Davide Bacciu</h3>
+      <p>University of Pisa</p>
     </div>
     <div class="organizer">
-      <img src="/assets/images/organizer2.jpg" alt="Organizer 2">
-      <h3>Organizer 2</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/castellana.jpg" alt="Daniele Castellana">
+      <h3>Daniele Castellana</h3>
+      <p>University of Firenze</p>
     </div>
     <div class="organizer">
-      <img src="/assets/images/organizer3.jpg" alt="Organizer 3">
-      <h3>Organizer 3</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/errica.jpg" alt="Federico Errica">
+      <h3>Federico Errica</h3>
+      <p>NEC Italy</p>
     </div>
     <div class="organizer">
-      <img src="/assets/images/organizer4.jpg" alt="Organizer 4">
-      <h3>Organizer 4</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/niepert.png" alt="Mathias Niepert">
+      <h3>Mathias Niepert</h3>
+      <p>University of Stuttgart</p>
     </div>
     <div class="organizer">
-      <img src="/assets/images/organizer5.jpg" alt="Organizer 5">
-      <h3>Organizer 5</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/podda.jpg" alt="Marco Podda">
+      <h3>Marco Podda</h3>
+      <p>University of Pisa</p>
     </div>
     <div class="organizer">
-      <img src="/assets/images/organizer6.jpg" alt="Organizer 6">
-      <h3>Organizer 6</h3>
-      <p>Role or Affiliation</p>
+      <img src="/assets/images/zaghen.png" alt="Olga Zaghen">
+      <h3>Olga Zaghen</h3>
+      <p>University of Amsterdam</p>
     </div>
   </div>
 </section>
+
+# Program Committee
+
+TBD
 
 
