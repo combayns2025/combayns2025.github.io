@@ -277,35 +277,32 @@ main {
 #program-committee {
   padding: 60px 20px;
   background-color: #f0f8ff;
-  text-align: center;
 }
 
 #program-committee h2 {
+  text-align: center;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-.committee-members {
-  list-style: none;
-  padding: 0;
+.committee-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: center;
+  gap: 40px;
 }
 
-.committee-member {
-  text-align: center;
-  width: 120px; /* Optional: limits the size of each list item */
+.committee-column {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.committee-member p {
-  margin-top: 10px;
+.committee-column li {
   font-size: 16px;
   color: #333;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
-
 /* Call for Papers Section */
 #call-for-papers {
   padding: 40px 20px;
