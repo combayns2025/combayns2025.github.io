@@ -143,14 +143,8 @@ footer {
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Aligns the hamburger to the right */
   align-items: center;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #fff;
 }
 
 .navbar-menu {
@@ -168,6 +162,8 @@ footer {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  padding: 10px 15px; /* Adds left/right padding for better spacing */
+  display: block;
 }
 
 .navbar-menu a:hover {
@@ -202,11 +198,16 @@ footer {
   }
 
   .navbar-menu li {
-    margin: 10px 0;
+    margin: 5px 0; /* Adds vertical spacing between menu items */
+  }
+
+  .navbar-menu a {
+    padding: 10px 20px; /* Increases left padding for better spacing */
   }
 
   .navbar-toggle {
     display: block;
   }
 }
+
 
