@@ -153,6 +153,10 @@ main {
   gap: 20px;
 }
 
+.program-container p {
+  text-align: center;
+}
+
 .program-event {
   background-color: #f0f8ff;
   border: 1px solid #ddd;
@@ -269,6 +273,10 @@ main {
   flex-wrap: wrap;
 }
 
+.speakers-container p {
+  text-align: center;
+}
+
 .speaker {
   text-align: center;
   max-width: 300px;
@@ -311,6 +319,10 @@ main {
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+.committee-container p {
+  text-align: center;
 }
 
 .committee-column {

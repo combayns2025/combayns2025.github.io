@@ -13,7 +13,7 @@ title: Home
     <h2>Paper submission</h2>
     <p>Submission link is available in the <a href="/call-for-papers/">Call for Papers</a> page.</p>
     <p>Be sure to read the submission instructions carefully!</p>
-    
+
     <br>
     <h2>Important Dates</h2>
     <ul>
@@ -25,25 +25,27 @@ title: Home
 
 <section id="program">
   <h2>Program</h2>
+
   <div class="program-container">
-    <div class="program-event">
-        <h3>Keynote Speech</h3>
+    <p>TBD</p>
+    <!-- <div class="program-event">
+        <h3>Event</h3>
         <p><strong>Time:</strong> 9:00 AM - 10:00 AM</p>
-        <p><strong>Place:</strong> Main Auditorium</p>
-        <p><strong>Details:</strong> Dr. Alice Johnson discusses "The Future of AI".</p>
+        <p><strong>Place:</strong> event place</p>
+        <p><strong>Details:</strong> more details on the event</p>
     </div>
     <div class="program-event">
-        <h3>Workshop on Cybersecurity</h3>
+        <h3>Event</h3>
         <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p>
-        <p><strong>Place:</strong> Room 203</p>
-        <p><strong>Details:</strong> Hands-on workshop led by Prof. John Smith.</p>
+        <p><strong>Place:</strong> event place</p>
+        <p><strong>Details:</strong> more details on the event</p>
     </div>
     <div class="program-event">
-        <h3>Panel Discussion</h3>
+        <h3>Event</h3>
         <p><strong>Time:</strong> 1:30 PM - 3:00 PM</p>
-        <p><strong>Place:</strong> Conference Hall A</p>
-        <p><strong>Details:</strong> Experts discuss "Challenges in Modern Computing".</p>
-    </div>
+        <p><strong>Place:</strong> event place</p>
+        <p><strong>Details:</strong> more details on the event</p>
+    </div> -->
   </div>
 </section>
 
@@ -51,16 +53,17 @@ title: Home
 <section id="speakers">
   <h2>Speakers</h2>
   <div class="speakers-container">
-      <div class="speaker">
+      <p>TBA</p>
+      <!-- <div class="speaker">
           <img src="/assets/images/placeholder.png" alt="Speaker 1">
-          <h3>Dr. Alice Johnson</h3>
-          <p>Dr. Alice Johnson is a leading expert in artificial intelligence and has published over 100 papers in the field.</p>
+          <h3>First speaker</h3>
+          <p>First speaker bio</p>
       </div>
       <div class="speaker">
           <img src="/assets/images/placeholder.png" alt="Speaker 2">
-          <h3>Prof. John Smith</h3>
-          <p>Prof. John Smith specializes in cybersecurity and has been a keynote speaker at several international conferences.</p>
-      </div>
+          <h3>Second speaker</h3>
+          <p>Second speaker bio</p>
+      </div> -->
   </div>
 </section>
 
@@ -103,17 +106,16 @@ title: Home
 <section id="program-committee">
   <h2>Program Committee</h2>
   <div class="committee-container">
-      <ul class="committee-column">
-          <li><strong>Dr. Emily Davis</strong><br>University of Example</li>
-          <li><strong>Dr. Michael Brown</strong><br>Institute of Technology</li>
-          <li><strong>Dr. Sarah White</strong><br>Global Research Labs</li>
+      <p>TBA</p>
+      <!-- <ul class="committee-column">
+          <li><strong>Committee member</strong><br>Affiliation</li>
+          <li><strong>Committee member</strong><br>Affiliation</li>
+          <li><strong>Committee member</strong><br>Affiliation</li>
       </ul>
       <ul class="committee-column">
-          <li><strong>Dr. James Green</strong><br>State University</li>
-          <li><strong>Dr. Laura Black</strong><br>Innovative Solutions Inc.</li>
-          <li><strong>Dr. Kevin Gray</strong><br>Advanced Computing Center</li>
-      </ul>
+          <li><strong>Committee member</strong><br>Affiliation</li>
+          <li><strong>Committee member</strong><br>Affiliation</li>
+          <li><strong>Committee member</strong><br>Affiliation</li>
+      </ul> -->
   </div>
 </section>
-
-
