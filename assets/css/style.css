@@ -1,17 +1,17 @@
 /* General Styles */
 body {
-  font-family: 'Roboto', Arial, sans-serif; /* Use Roboto as primary font */
+  font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* Soft background color */
-  color: #333; /* Dark text for contrast */
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 h1, h2 {
-  font-family: 'Roboto', Arial, sans-serif; /* Apply Roboto to headings */
-  font-weight: 700; /* Use bold weight for headings */
-  color: #333; /* Ensure headings are dark for readability */
-  margin: 0 0 20px; /* Add space below headings */
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 20px;
   text-align: center;
 }
 
@@ -19,10 +19,10 @@ h1, h2 {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #333; /* Dark background for navbar */
+  background-color: #005f73; /* Blue shade for navbar */
   z-index: 1000;
-  padding: 12px 20px; /* Adjust padding for balance */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 12px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-container {
@@ -34,7 +34,7 @@ h1, h2 {
 .navbar-menu {
   list-style: none;
   display: flex;
-  gap: 25px; /* Increased gap between menu items */
+  gap: 25px;
   margin: 0;
   padding: 0;
 }
@@ -46,11 +46,16 @@ h1, h2 {
 .navbar-menu a {
   text-decoration: none;
   color: white;
-  padding: 12px 20px; /* Added more padding for better spacing */
+  padding: 12px 20px;
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 500; /* Slightly lighter font weight for better readability */
-  margin-bottom: 8px; /* Margin below the links for better spacing */
-  transition: none; /* Removed hover transition to avoid highlight */
+  font-weight: 500;
+  margin-bottom: 8px;
+  transition: none;
+}
+
+.navbar-menu a:hover {
+  background-color: #94d2bd; /* Lighter shade on hover */
+  border-radius: 5px;
 }
 
 /* Hamburger Menu (Responsive) */
@@ -72,10 +77,10 @@ h1, h2 {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #333;
+    background-color: #005f73; /* Blue shade for mobile menu */
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow for mobile menu */
-    padding: 20px 0; /* Add padding to prevent items being too close to the edge */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
   }
 
   .navbar-menu.show {
@@ -83,39 +88,44 @@ h1, h2 {
   }
 
   .navbar-menu li {
-    width: 100%; /* Make each item full-width on mobile */
+    width: 100%;
     text-align: center;
-    padding: 10px 0; /* Add padding inside each item */
-    margin-bottom: 15px; /* Ensure margin is added below each item */
+    padding: 10px 0;
+    margin-bottom: 15px;
   }
 
   .navbar-menu a {
-    padding: 15px 0; /* Increase padding for easier tapping */
-    margin: 0; /* Remove margin below items */
+    padding: 15px 0;
+    margin: 0;
   }
 }
 
-/* Hero Section */
+/* Main Content Styling */
+main {
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background-color: #f4f4f4; /* Soft light gray background */
-  margin-top: 70px; /* Offset the sticky navbar */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background: linear-gradient(135deg, #00b4d8, #0077b6); /* Gradient for the hero section */
+  color: white;
+  margin-top: 70px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
   font-size: 36px;
   margin-bottom: 15px;
-  color: #333;
 }
 
 .hero p {
   font-size: 18px;
-  color: #555; /* Lighter color for less emphasis */
-  margin-bottom: 30px; /* Add space below paragraph */
-  padding-left: 20px; /* Add left padding to avoid text being too close to the left edge */
-  padding-right: 20px; /* Add right padding for consistency */
+  color: #f1f1f1;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Program Section */
@@ -133,14 +143,14 @@ h1, h2 {
   font-size: 18px;
   line-height: 1.6;
   color: #444;
-  padding-left: 20px; /* Add left padding to avoid text being too close to the left edge */
-  padding-right: 20px; /* Add right padding for consistency */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Organizers Section */
 #organizers {
   padding: 60px 20px;
-  background-color: #fafafa; /* Light background for contrast */
+  background-color: #fafafa;
   text-align: center;
 }
 
@@ -152,7 +162,7 @@ h1, h2 {
 .organizers-container {
   display: flex;
   justify-content: center;
-  gap: 30px; /* More space between organizer images */
+  gap: 30px;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -166,8 +176,8 @@ h1, h2 {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #fff; /* Add border around images */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for images */
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .organizer p {
@@ -178,7 +188,7 @@ h1, h2 {
 
 /* Footer Styles */
 .footer {
-  background-color: #333; /* Dark background */
+  background-color: #005f73; /* Blue shade for footer */
   color: white;
   text-align: center;
   padding: 20px;
