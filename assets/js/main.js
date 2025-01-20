@@ -1,23 +1,8 @@
-// Select the hamburger icon and the navbar
+// Select the hamburger icon and the navbar menu
 const hamburger = document.querySelector('.hamburger');
-const navbar = document.querySelector('.navbar');
-const navLinks = document.querySelector('.nav-links');
+const navbarMenu = document.querySelector('.navbar-menu');
 
-// Function to toggle the navbar visibility on mobile
+// Toggle the menu when the hamburger is clicked
 hamburger.addEventListener('click', () => {
-  navbar.classList.toggle('show-nav');
-});
-
-// Optional: Close the navbar if any of the links are clicked
-navLinks.addEventListener('click', () => {
-  if (navbar.classList.contains('show-nav')) {
-    navbar.classList.remove('show-nav');
-  }
-});
-
-// Optional: Close the navbar when clicking outside the navbar (on mobile)
-document.addEventListener('click', (event) => {
-  if (!navbar.contains(event.target) && !hamburger.contains(event.target)) {
-    navbar.classList.remove('show-nav');
-  }
+  navbarMenu.classList.toggle('show');
 });
