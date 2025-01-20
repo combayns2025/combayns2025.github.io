@@ -202,3 +202,55 @@ main {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif;
 }
+
+/* Important Dates Section */
+#important-dates {
+  padding: 40px 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center;
+}
+
+#important-dates h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#important-dates ul {
+  list-style: none;
+  padding: 0;
+}
+
+#important-dates li {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Speakers Section */
+#speakers {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#speakers h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#speakers p {
+  font-size: 18px;
+  color: #444;
+}
+
+/* Program Committee Section */
+#program-committee {
+  padding: 60px 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+#program-committee h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
