@@ -3,11 +3,15 @@ body {
   font-family: 'Roboto', Arial, sans-serif; /* Use Roboto as primary font */
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9; /* Soft background color */
+  color: #333; /* Dark text for contrast */
 }
 
 h1, h2 {
   font-family: 'Roboto', Arial, sans-serif; /* Apply Roboto to headings */
   font-weight: 700; /* Use bold weight for headings */
+  color: #333; /* Ensure headings are dark for readability */
+  margin: 0 0 20px; /* Add space below headings */
   text-align: center;
 }
 
@@ -15,9 +19,10 @@ h1, h2 {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #333;
+  background-color: #333; /* Dark background for navbar */
   z-index: 1000;
-  padding: 10px 20px;
+  padding: 12px 20px; /* Adjust padding for balance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .navbar-container {
@@ -29,7 +34,7 @@ h1, h2 {
 .navbar-menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px; /* Increased gap between menu items */
   margin: 0;
   padding: 0;
 }
@@ -41,8 +46,10 @@ h1, h2 {
 .navbar-menu a {
   text-decoration: none;
   color: white;
-  padding: 8px 12px;
-  font-family: 'Roboto', Arial, sans-serif; /* Use Roboto for navbar links */
+  padding: 10px 18px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 500; /* Slightly lighter font weight for better readability */
+  transition: background-color 0.3s ease;
 }
 
 .navbar-menu a:hover {
@@ -53,7 +60,7 @@ h1, h2 {
 /* Hamburger Menu (Responsive) */
 .hamburger {
   display: none;
-  font-size: 24px;
+  font-size: 28px;
   color: white;
   cursor: pointer;
 }
@@ -71,37 +78,79 @@ h1, h2 {
     right: 0;
     background-color: #333;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow for mobile menu */
   }
 
   .navbar-menu.show {
     display: flex;
+  }
+
+  .navbar-menu li {
+    width: 100%; /* Make each item full-width on mobile */
+    text-align: center;
+  }
+
+  .navbar-menu a {
+    padding: 15px 0; /* Increase padding for easier tapping */
   }
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 50px 20px;
-  background-color: #f4f4f4;
-  font-family: 'Roboto', Arial, sans-serif; /* Ensure hero text uses Roboto */
+  padding: 80px 20px;
+  background-color: #f4f4f4; /* Soft light gray background */
+  margin-top: 70px; /* Offset the sticky navbar */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555; /* Lighter color for less emphasis */
+  margin-bottom: 30px; /* Add space below paragraph */
 }
 
 /* Program Section */
 #program {
-  padding: 40px 20px;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+#program h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#program p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
 }
 
 /* Organizers Section */
 #organizers {
-  padding: 40px 20px;
+  padding: 60px 20px;
+  background-color: #fafafa; /* Light background for contrast */
   text-align: center;
+}
+
+#organizers h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .organizers-container {
   display: flex;
   justify-content: center;
+  gap: 30px; /* More space between organizer images */
   flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
 }
 
 .organizer {
@@ -109,8 +158,16 @@ h1, h2 {
 }
 
 .organizer img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  border: 3px solid #fff; /* Add border around images */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for images */
+}
+
+.organizer p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
 }
