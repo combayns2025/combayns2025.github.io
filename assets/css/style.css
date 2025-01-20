@@ -135,6 +135,40 @@ main {
   padding-right: 20px;
 }
 
+.custom-link {
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+  color: #71adcd; /* Ensures the color matches the surrounding text by default */
+  transition: color 0.3s ease; /* Smooth transition for hover color change */
+}
+
+.custom-link:hover {
+  color: #31a7e7; /* Specify the hover color (e.g., a shade of blue) */
+}
+
+/* Important Dates Section */
+#important-dates {
+  padding: 40px 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center;
+}
+
+#important-dates h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#important-dates ul {
+  list-style: none;
+  padding: 0;
+}
+
+#important-dates li {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
 /* Program Section */
 #program {
   padding: 60px 20px;
@@ -176,82 +210,6 @@ main {
   margin: 5px 0;
   font-size: 16px;
   color: #333;
-}
-
-/* Organizers Section */
-#organizers {
-  padding: 60px 20px;
-  background-color: #fff;
-  text-align: center;
-}
-
-#organizers h2 {
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-
-.organizers-container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.organizer {
-  text-align: center;
-}
-
-.organizer img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.organizer p {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #333;
-}
-
-/* Footer Styles */
-.footer {
-  background-color: #005f73; /* Blue shade for footer */
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-}
-
-.footer p {
-  margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
-}
-
-/* Important Dates Section */
-#important-dates {
-  padding: 40px 20px;
-  background-color: #f0f8ff; /* Light blue background */
-  text-align: center;
-}
-
-#important-dates h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-#important-dates ul {
-  list-style: none;
-  padding: 0;
-}
-
-#important-dates li {
-  font-size: 18px;
-  color: #333;
-  margin: 10px 0;
 }
 
 /* Speakers Section */
@@ -301,6 +259,45 @@ main {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
+}
+
+/* Organizers Section */
+#organizers {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#organizers h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.organizers-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.organizer {
+  text-align: center;
+}
+
+.organizer img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.organizer p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
 }
 
 /* Program Committee Section */
@@ -354,13 +351,18 @@ main {
   margin-bottom: 30px;
 }
 
-.custom-link {
-  text-decoration: none; /* Removes the underline */
-  font-weight: bold; /* Makes the text bold */
-  color: #71adcd; /* Ensures the color matches the surrounding text by default */
-  transition: color 0.3s ease; /* Smooth transition for hover color change */
+
+
+/* Footer Styles */
+.footer {
+  background-color: #005f73; /* Blue shade for footer */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
 
-.custom-link:hover {
-  color: #31a7e7; /* Specify the hover color (e.g., a shade of blue) */
+.footer p {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
 }
