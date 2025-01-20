@@ -11,7 +11,6 @@ permalink: /call-for-papers/
   <h2>Contributions</h2>
   <p>We welcome <b>short (4 pages)</b> and <b>full (8 pages)</b> paper submissions. Short papers will not be included in IJCNN 2025 proceedings, whereas full papers undergo a regular review process and will be published in IJCNN 2025 proceedings. Submissions should target the following topics:
 
-  
   <ul>
     <li>Bayesian learning and probabilistic methods for structured data (sequences, trees, DAGs, graphs, general geometries)</li>
     <li>Dynamic variational methods for structured data</li>
@@ -26,12 +25,11 @@ permalink: /call-for-papers/
     <li>Uncertainty modeling on structured data</p></li>
   </ul>
 
-<h2>Submission Guidelines</h2> 
-
-<ul>
-  <li>Papers should be in **PDF format** and follow the <a href="https://2025.ijcnn.org/authors/call-for-papers">IJCNN submission guidelines for workshop papers</a>.</li>
-  <li>Submit papers via the <a href="https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create">CMT Portal</a> (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)</li>
-</ul>
+  <h2>Submission Guidelines</h2> 
+  <ul>
+    <li>Papers should be in **PDF format** and follow the <a href="https://2025.ijcnn.org/authors/call-for-papers">IJCNN submission guidelines for workshop papers</a>.</li>
+    <li>Submit papers via the <a href="https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create">CMT Portal</a> (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)</li>
+  </ul>
 
  <h2>Important Dates</h2>
  <ul>
@@ -42,13 +40,13 @@ permalink: /call-for-papers/
  </ul>
 
 
- <h2>Download CFP</h2>
+  <h2>Download CFP</h2>
 
-Click <a href="/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf">here</a> to download the detailed Call for Papers in PDF format
+  <p>Click <a href="/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf">here</a> to download the detailed Call for Papers in PDF format.</p>
 
-<hr>
+  <hr>
 
-For more details or queries, please contact us at <a href="mailto:combayns2025@proton.me">combayns2025@proton.me</a>.
+  <p>For more details or queries, please contact us at <a href="mailto:combayns2025@proton.me">combayns2025@proton.me</a>.</p>
 
 </section>
   
