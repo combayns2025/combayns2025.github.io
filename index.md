@@ -11,9 +11,11 @@ title: Home
 
 <section id="important-dates">
     <p>
-      Submission link is available in the <a href="/call-for-papers/">Call for papers</a> page.
+      Submission link is available in the <a href="/call-for-papers/">Call for Papers</a> page.<br>
       Be sure to read the submission instructions carefully!
     </p>
+    <br>
+    <br>
     <h2>Important Dates</h2>
     <ul>
       <li><strong>Paper Submissions:</strong> March 20, 2025</li>
