@@ -3,8 +3,6 @@ layout: default
 title: Call for papers
 permalink: /call-for-papers/
 ---
-
-<section id="call-for-papers">
   
   # Call for papers
   
@@ -44,5 +42,3 @@ Click [here](/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf) to download the 
 ---
 
 For more details or queries, please contact us at [combayns2025@proton.me](mailto:combayns2025@proton.me).
-
-</section>
