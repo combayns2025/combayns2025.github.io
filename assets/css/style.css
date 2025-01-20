@@ -278,3 +278,21 @@ main {
   font-size: 16px;
   color: #333;
 }
+
+/* Call for Papers Section */
+#call-for-papers {
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#call-for-papers h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#call-for-papers p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
