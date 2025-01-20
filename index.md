@@ -67,7 +67,12 @@ title: Home
 
 <section id="program-committee">
   <h2>Program Committee</h2>
-  <p>TBD</p>
+  <ul class="committee-members">
+    <li class="committee-member">
+      <p>TBD</p>
+    </li>
+    <!-- More committee members can be added here -->
+  </ul>
 </section>
 
 
