@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleButton = document.querySelector(".navbar-toggle");
-  const menu = document.querySelector(".navbar-menu");
+const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
 
-  toggleButton.addEventListener("click", function () {
-    menu.classList.toggle("active");
-  });
+hamburger.addEventListener('click', () => {
+  navbar.classList.toggle('show-nav');
 });
+
