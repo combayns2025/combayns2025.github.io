@@ -4,12 +4,12 @@ title: Call for papers
 permalink: /call-for-papers/
 ---
 
-# Call for papers
-
-The **neural network** and **Bayesian** machine learning communities have historically struggled to come together due to philosophical differences and different metrics of success. Yet, there is much to gain by combining probabilistic approaches and neural architectures to endow the latter, for instance, with the ability to perform uncertainty quantification, handle missing data, and learn and sample from structured data distributions. The aim of this workshop is to encourage such a convergence of ideas in the domain of structured data, such as sequences, trees, directed acyclic graphs, graphs, and general geometries. 
-
-## Contributions
-We welcome **short (4 pages)** and **full (8 pages)** paper submissions. Short papers will not be included in IJCNN 2025 proceedings, whereas full papers undergo a regular review process and will be published in IJCNN 2025 proceedings. Submissions should target the following topics:
+<section id="call-for-papers">
+  <h1>Call for papers</h1>
+  The **neural network** and **Bayesian** machine learning communities have historically struggled to come together due to philosophical differences and different metrics of success. Yet, there is much to gain by combining probabilistic approaches and neural architectures to endow the latter, for instance, with the ability to perform uncertainty quantification, handle missing data, and learn and sample from structured data distributions. The aim of this workshop is to encourage such a convergence of ideas in the domain of structured data, such as sequences, trees, directed acyclic graphs, graphs, and general geometries.
+  
+  <h2>Contributions</h2>
+  We welcome **short (4 pages)** and **full (8 pages)** paper submissions. Short papers will not be included in IJCNN 2025 proceedings, whereas full papers undergo a regular review process and will be published in IJCNN 2025 proceedings. Submissions should target the following topics:
 
 - Bayesian learning and probabilistic methods for structured data (sequences, trees, DAGs, graphs, general geometries)
 - Dynamic variational methods for structured data
@@ -23,18 +23,20 @@ We welcome **short (4 pages)** and **full (8 pages)** paper submissions. Short p
 - Random walk approaches on structured data
 - Uncertainty modeling on structured data
 
-## Submission Guidelines
+<h2>Submission Guidelines</h2>
 1. Papers should be in **PDF format** and follow the [IJCNN submission guidelines for workshop papers](https://2025.ijcnn.org/authors/call-for-papers).
 2. Submit papers via the [CMT Portal](https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create) (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)
 
-## Important Dates
+<h2>Important Dates</h2>
 - **Submission Deadline:** March 20, 2025
 - **Notification of Acceptance:** TBD
 - **Camera-Ready Deadline:** TBD
 
-## Download CFP
+<h2>Download CFP</h2>
 Click [here](/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf) to download the detailed Call for Papers in PDF format
 
 ---
 
-For more details or queries, please contact us at [combayns2025@proton.me](mailto:combayns2025@proton.me).
+<p>For more details or queries, please contact us at [combayns2025@proton.me](mailto:combayns2025@proton.me).</p>
+
+</section>
