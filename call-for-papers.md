@@ -22,22 +22,22 @@ permalink: /call-for-papers/
     <li>Expressivity of neural-probabilistic approaches for structured data</li>
     <li>Bayesian causal structure learning for explainable and trustworthy AI</li>
     <li>Random walk approaches on structured data</li>
-    <li>Uncertainty modeling on structured data</p></li>
-  </ul>
+    <li>Uncertainty modeling on structured data</li>
+  </ul></p>
 
   <h2>Submission Guidelines</h2> 
-  <ul>
+  <p><ul>
     <li>Papers should be in **PDF format** and follow the <a href="https://2025.ijcnn.org/authors/call-for-papers">IJCNN submission guidelines for workshop papers</a>.</li>
     <li>Submit papers via the <a href="https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create">CMT Portal</a> (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)</li>
-  </ul>
+  </ul></p>
 
  <h2>Important Dates</h2>
- <ul>
+ <p><ul>
    <li><strong>Submission Deadline:</strong> March 20, 2025</li>
    <li><strong>Notification of Acceptance:</strong> TBD</li>
    <li><strong>Camera-ready Deadline:</strong> TBD</li>
    <li><strong>Workshop dates:</strong> June 30 - July 5, 2025</li>
- </ul>
+ </ul></p>
 
 
   <h2>Download CFP</h2>
