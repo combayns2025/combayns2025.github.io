@@ -8,7 +8,7 @@ permalink: /organizers/
 
 <div class="organizers-container">
   <div class="organizer">
-    <img src="/assets/images/bacciu.jpg" alt="Davide Bacciu">
+    <img src="/assets/images/bacciu.jpeg" alt="Davide Bacciu">
     <h3>Davide Bacciu</h3>
     <p>University of Pisa</p>
   </div>
