@@ -46,10 +46,11 @@ h1, h2 {
 .navbar-menu a {
   text-decoration: none;
   color: white;
-  padding: 10px 18px;
+  padding: 12px 20px; /* Added more padding for better spacing */
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 500; /* Slightly lighter font weight for better readability */
   transition: background-color 0.3s ease;
+  margin-bottom: 8px; /* Margin below the links for better spacing */
 }
 
 .navbar-menu a:hover {
@@ -92,6 +93,7 @@ h1, h2 {
 
   .navbar-menu a {
     padding: 15px 0; /* Increase padding for easier tapping */
+    margin-bottom: 0; /* Remove margin below items on mobile */
   }
 }
 
