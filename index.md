@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <h1>ComBayNS 2025 Workshop</h1>
   <p>Combining Bayesian and Neural approaches for Structured Data</p>
-  <p>This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Conference</a>, Rome, June 30-July 6 2025</p>
+  <p>This workshop is part of the <a href="https://2025.ijcnn.org/" class="custom-link">2025 IJCNN Conference</a>, Rome, June 30-July 6 2025</p>
 </div>
 
 <section id="important-dates">
