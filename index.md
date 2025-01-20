@@ -32,6 +32,18 @@ title: Home
 <section id="speakers">
   <h2>Speakers</h2>
   <p>TBD</p>
+  <div class="speakers-container">
+      <div class="speaker">
+          <img src="/assets/images/placeholder.png" alt="Speaker 1">
+          <h3>Dr. Alice Johnson</h3>
+          <p>Dr. Alice Johnson is a leading expert in artificial intelligence and has published over 100 papers in the field.</p>
+      </div>
+      <div class="speaker">
+          <img src="/assets/images/placeholder.png" alt="Speaker 2">
+          <h3>Prof. John Smith</h3>
+          <p>Prof. John Smith specializes in cybersecurity and has been a keynote speaker at several international conferences.</p>
+      </div>
+  </div>
 </section>
 
 <section id="organizers">
