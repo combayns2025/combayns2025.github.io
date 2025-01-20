@@ -6,17 +6,26 @@ title: Home
 <div class="hero">
   <h1>ComBayNS 2025 Workshop</h1>
   <p>Combining Bayesian and Neural approaches for Structured Data</p>
+  <p>This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Conference</a>, Rome, June 30-July 6 2025</p>
 </div>
 
-This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Conference</a>, Rome, June 30-July 6 2025
-
-## Important Dates
-- **Submission Deadline:** March 20, 2025
-- **Notification of Acceptance:** TBD
-- **Camera-Ready Deadline:** TBD
+<section id="important-dates">
+    <h2>Important Dates</h2>
+    <ul>
+      <li><strong>Paper Submissions:</strong> TBD</li>
+      <li><strong>Notification of Acceptance:</strong> TBD</li>
+      <li><strong>Workshop Dates:</strong> June 30 - July 5, 2025</li>
+    </ul>
+</section>
 
 <section id="program">
   <h2>Program</h2>
+  <p>TBD</p>
+</section>
+
+<!-- Speakers Section -->
+<section id="speakers">
+  <h2>Speakers</h2>
   <p>TBD</p>
 </section>
 
@@ -56,8 +65,9 @@ This workshop is part of the <a href="https://2025.ijcnn.org/">2025 IJCNN Confer
   </div>
 </section>
 
-# Program Committee
-
-TBD
+<section id="program-committee">
+  <h2>Program Committee</h2>
+  <p>TBD</p>
+</section>
 
 
