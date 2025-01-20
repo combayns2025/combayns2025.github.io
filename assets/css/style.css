@@ -59,7 +59,6 @@ h1, h2 {
 }
 
 .navbar-menu a:hover {
-  /** background-color: #94d2bd; **/
   border-radius: 5px;
   font-weight: bold;
 }
@@ -232,7 +231,7 @@ main {
 /* Speakers Section */
 #speakers {
   padding: 60px 20px;
-  background-color: #f0f8ff;;
+  background-color: #f0f8ff; /* Light blue background */
   text-align: center;
 }
 
