@@ -83,12 +83,18 @@ title: Home
 
 <section id="program-committee">
   <h2>Program Committee</h2>
-  <ul class="committee-members">
-    <li class="committee-member">
-      <p>TBD</p>
-    </li>
-    <!-- More committee members can be added here -->
-  </ul>
+  <div class="committee-container">
+      <ul class="committee-column">
+          <li><strong>Dr. Emily Davis</strong><br>University of Example</li>
+          <li><strong>Dr. Michael Brown</strong><br>Institute of Technology</li>
+          <li><strong>Dr. Sarah White</strong><br>Global Research Labs</li>
+      </ul>
+      <ul class="committee-column">
+          <li><strong>Dr. James Green</strong><br>State University</li>
+          <li><strong>Dr. Laura Black</strong><br>Innovative Solutions Inc.</li>
+          <li><strong>Dr. Kevin Gray</strong><br>Advanced Computing Center</li>
+      </ul>
+  </div>
 </section>
 
 
