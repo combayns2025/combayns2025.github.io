@@ -103,16 +103,17 @@ h1, h2 {
 /* Main Content Styling */
 main {
   padding: 40px 20px;
-  margin-top: 20px;
+  margin-top: 0; /* Removed the top margin to attach directly to navbar */
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #00b4d8, #0077b6); /* Gradient for the hero section */
+  background: linear-gradient(135deg, #004c47, #0077b6); /* Gradient more similar to navbar colors */
   color: white;
-  margin-top: 70px;
+  margin-top: 0; /* Removed margin-top to eliminate the gap between navbar and hero */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .hero h1 {
