@@ -25,7 +25,26 @@ title: Home
 
 <section id="program">
   <h2>Program</h2>
-  <p>TBD</p>
+  <div class="program-container">
+    <div class="program-event">
+        <h3>Keynote Speech</h3>
+        <p><strong>Time:</strong> 9:00 AM - 10:00 AM</p>
+        <p><strong>Place:</strong> Main Auditorium</p>
+        <p><strong>Details:</strong> Dr. Alice Johnson discusses "The Future of AI".</p>
+    </div>
+    <div class="program-event">
+        <h3>Workshop on Cybersecurity</h3>
+        <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p>
+        <p><strong>Place:</strong> Room 203</p>
+        <p><strong>Details:</strong> Hands-on workshop led by Prof. John Smith.</p>
+    </div>
+    <div class="program-event">
+        <h3>Panel Discussion</h3>
+        <p><strong>Time:</strong> 1:30 PM - 3:00 PM</p>
+        <p><strong>Place:</strong> Conference Hall A</p>
+        <p><strong>Details:</strong> Experts discuss "Challenges in Modern Computing".</p>
+    </div>
+  </div>
 </section>
 
 <!-- Speakers Section -->
