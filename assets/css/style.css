@@ -231,18 +231,46 @@ main {
 /* Speakers Section */
 #speakers {
   padding: 60px 20px;
-  background-color: #f0f8ff; /* Light blue background */
-  text-align: center;
+  background-color: #f0f8ff;
 }
 
 #speakers h2 {
+  text-align: center;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-#speakers p {
-  font-size: 18px;
+.speakers-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  text-align: center;
+  max-width: 300px;
+}
+
+.speaker img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.speaker h3 {
+  font-size: 20px;
   color: #333;
+  margin-bottom: 10px;
+}
+
+.speaker p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
 }
 
 /* Program Committee Section */
