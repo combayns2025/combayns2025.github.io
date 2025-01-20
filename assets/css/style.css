@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   color: #333;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 h1, h2 {
@@ -102,7 +103,7 @@ h1, h2 {
 
 /* Main Content Styling */
 main {
-  padding: 40px 20px;
+  padding: 0;
   margin-top: 0; /* Removed the top margin to attach directly to navbar */
 }
 
@@ -112,12 +113,13 @@ main {
   background: linear-gradient(135deg, #004c47, #0077b6); /* Gradient more similar to navbar colors */
   color: white;
   margin-top: 0; /* Removed margin-top to eliminate the gap between navbar and hero */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
+  box-sizing: border-box; /* Ensure no horizontal overflow */
 }
 
 .hero h1 {
   font-size: 36px;
+  color: white; /* Ensure the hero heading is white */
   margin-bottom: 15px;
 }
 
