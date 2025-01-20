@@ -99,6 +99,7 @@ footer {
   margin: 0;
   padding: 0;
   gap: 20px; /* Spacing between items */
+  justify-content: flex-end; /* Align menu items to the right */
 }
 
 .navbar-menu li {
