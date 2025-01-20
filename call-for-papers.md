@@ -33,9 +33,7 @@ We welcome **short (4 pages)** and **full (8 pages)** paper submissions. Short p
 - **Camera-Ready Deadline:** TBD
 
 ## Download CFP
-Click the link below to download the detailed Call for Papers in PDF format:
-
-[Download CFP (PDF)](/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf)
+Click [here](/assets/pdf/ComBayNS-IJCNN_2025_Workshop-call.pdf) to download the detailed Call for Papers in PDF format
 
 ---
 
