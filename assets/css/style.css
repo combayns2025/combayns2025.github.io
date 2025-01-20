@@ -1,4 +1,8 @@
 /* General Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -78,24 +82,33 @@ footer {
   color: #fff;
 }
 
-/* Organizers Page Styles */
-.organizers-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Creates six equal-width columns */
-  gap: 20px; /* Adds spacing between items */
-  padding: 20px;
+/* Section Styles */
+section {
+  padding: 50px 20px;
+  margin: 20px 0;
 }
 
-.organizer {
+#organizers {
+  background: #f4f4f4;
   text-align: center;
+}
+
+#program {
+  background: #e8e8e8;
+}
+
+.organizers-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .organizer img {
   width: 100px;
   height: 100px;
-  border-radius: 50%; /* Makes the image round */
+  border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 
@@ -108,19 +121,6 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
-
-@media (max-width: 768px) {
-  .organizers-container {
-    grid-template-columns: repeat(3, 1fr); /* 3 organizers per row on smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .organizers-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 organizers per row on very small screens */
-  }
-}
-
 
 /* Call for Papers Page Styles */
 .call-for-papers a {
