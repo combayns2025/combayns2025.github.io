@@ -27,7 +27,7 @@ permalink: /call-for-papers/
 
   <h2>Submission Guidelines</h2> 
   <p><ul>
-    <li>Papers should be in **PDF format** and follow the <a href="https://2025.ijcnn.org/authors/call-for-papers">IJCNN submission guidelines for workshop papers</a>.</li>
+    <li>Papers should be in <b>PDF format</b> and follow the <a href="https://2025.ijcnn.org/authors/call-for-papers">IJCNN submission guidelines for workshop papers</a>.</li>
     <li>Submit papers via the <a href="https://cmt3.research.microsoft.com/IJCNN2025/Track/3/Submission/Create">CMT Portal</a> (make sure to select ComBayNS AS “PRIMARY SUBJECT AREA”)</li>
   </ul></p>
 
