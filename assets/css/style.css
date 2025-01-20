@@ -11,29 +11,6 @@ body {
   padding-top: 60px; /* Adjust based on navbar height */
 }
 
-/* Navbar */
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  background: #1d3557;
-  padding: 10px;
-  margin: 0;
-}
-nav ul li {
-  margin: 0 15px;
-}
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-
 /* Hero Section */
 .hero {
   background: linear-gradient(to right, #1d3557, #457b9d);
@@ -97,85 +74,85 @@ footer {
   text-decoration: underline;
 }
 
-/* Navbar Styles */
+/* General Navbar Styles */
 .navbar {
-  background: #1d3557;
-  color: #fff;
-  padding: 10px 20px;
-  position: fixed; /* Fixes the navbar at the top */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Ensures the navbar stays on top of other content */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visibility */
+  background-color: #333; /* Background color */
+  z-index: 1000; /* Ensures it stays on top */
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 .navbar-container {
   display: flex;
-  justify-content: flex-end; /* Aligns the hamburger to the right */
+  justify-content: space-between;
   align-items: center;
 }
 
+/* Navbar menu styles */
 .navbar-menu {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 20px; /* Spacing between items */
 }
 
 .navbar-menu li {
-  margin-left: 15px;
+  display: inline;
 }
 
 .navbar-menu a {
+  color: white; /* Link color */
   text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px 15px; /* Adds left/right padding for better spacing */
-  display: block;
+  padding: 8px 12px;
 }
 
 .navbar-menu a:hover {
-  text-decoration: underline;
+  background-color: #575757; /* Hover effect */
+  border-radius: 4px;
 }
 
-/* Mobile Styles */
-.navbar-toggle {
-  display: none;
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  color: #fff;
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none; /* Hidden by default */
   cursor: pointer;
+  font-size: 24px;
+  color: white;
 }
 
+/* Responsive Styles for Smaller Screens */
 @media (max-width: 768px) {
-  .navbar-menu {
-    display: none;
-    flex-direction: column;
-    background: #1d3557;
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .hamburger {
+    display: block; /* Show hamburger icon */
   }
 
-  .navbar-menu.active {
-    display: flex;
+  .navbar-menu {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Place below the navbar */
+    left: 0;
+    width: 100%; /* Full-width dropdown */
+    background-color: #333; /* Match navbar background */
+    padding: 10px 0;
+  }
+
+  .navbar-menu.show {
+    display: flex; /* Show menu when toggled */
   }
 
   .navbar-menu li {
-    margin: 5px 0; /* Adds vertical spacing between menu items */
+    text-align: center;
+    width: 100%; /* Full-width links */
   }
 
   .navbar-menu a {
-    padding: 10px 20px; /* Increases left padding for better spacing */
-  }
-
-  .navbar-toggle {
-    display: block;
+    display: block; /* Block style for better click area */
+    padding: 12px 20px;
   }
 }
 
