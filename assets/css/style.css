@@ -11,6 +11,15 @@ body {
 }
 
 /* Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -30,6 +39,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 
 /* Hero Section */
 .hero {
