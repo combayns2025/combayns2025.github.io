@@ -80,7 +80,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333; /* Background color */
+  background-color: #d62828; /* Background color */
   z-index: 1000; /* Ensures it stays on top */
   padding: 10px 20px;
   box-sizing: border-box;
@@ -112,7 +112,7 @@ footer {
 }
 
 .navbar-menu a:hover {
-  background-color: #575757; /* Hover effect */
+  background-color: #d62828; /* Hover effect */
   border-radius: 4px;
 }
 
@@ -137,7 +137,7 @@ footer {
     top: 100%; /* Place below the navbar */
     left: 0;
     width: 100%; /* Full-width dropdown */
-    background-color: #333; /* Match navbar background */
+    background-color: #d62828; /* Match navbar background */
     padding: 10px 0;
   }
 
