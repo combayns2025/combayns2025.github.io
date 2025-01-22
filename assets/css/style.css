@@ -368,7 +368,7 @@ main {
 /* Social icons */
 .social-icons {
   display: flex;
-  gap: 15px; /* Adjust spacing between icons */
+  gap: 20px; /* Increased spacing between icons */
   align-items: center;
 }
 
