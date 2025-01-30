@@ -335,6 +335,20 @@ main {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  .committee-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .committee-column {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* Call for Papers Section */
 #call-for-papers {
   padding: 40px 20px;
