@@ -104,16 +104,22 @@ title: Home
 <section id="program-committee">
   <h2>Program Committee</h2>
   <div class="committee-container">
-      <p>TBA</p>
-      <!-- <ul class="committee-column">
-          <li><strong>Committee member</strong><br>Affiliation</li>
-          <li><strong>Committee member</strong><br>Affiliation</li>
-          <li><strong>Committee member</strong><br>Affiliation</li>
+      <ul class="committee-column">
+          <li><strong>Carlo Abate</strong><br>UiT</li>
+          <li><strong>Steve Azzolin</strong><br>University of Trento</li>
+          <li><strong>Maria Sofia Bucarelli</strong><br>Sapienza University</li>
+          <li><strong>Andrea Cini</strong><br>USI</li>
+          <li><strong>Martina Cinquini</strong><br>University of Pisa</li>
+          <li><strong>Michele Fontanesi</strong><br>University of Pisa</li>
+          <li><strong>Claudio Gallicchio</strong><br>University of Pisa</li>
       </ul>
       <ul class="committee-column">
-          <li><strong>Committee member</strong><br>Affiliation</li>
-          <li><strong>Committee member</strong><br>Affiliation</li>
-          <li><strong>Committee member</strong><br>Affiliation</li>
-      </ul> -->
+          <li><strong>Julia Gastinger</strong><br>Uni Mannheim</li>
+          <li><strong>Jimwoo Kim</strong><br>KAIST</li>
+          <li><strong>Lorenzo Loconte</strong><br>Uni Edimburgh</li>
+          <li><strong>Ivan Marisca</strong><br>USI</li>
+          <li><strong>Riccardo Massidda</strong><br>University of Pisa</li>
+          <li><strong>Daniele Zambon</strong><br>USI</li>
+      </ul>
   </div>
 </section>
