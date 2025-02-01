@@ -246,11 +246,12 @@ main {
 
 .speaker img {
   width: 100%;
-  max-width: 150px; /* Adjust this size for smaller screens */
-  height: 150px; /* Keeps the image square */
+  max-width: 250px; /* Adjust this size for smaller screens */
+  height: 250px; /* Keeps the image square */
   border-radius: 50%; /* Makes the image round */
   object-fit: cover;
   margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .speaker h3 {
