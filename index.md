@@ -52,7 +52,7 @@ title: Home
   <h2>Speakers</h2>
   <div class="speakers-container">
       <div class="speaker">
-          <img src="/assets/images/coates.jpeg" alt="Prof. Mark Coates">
+          <img src="/assets/images/coates.png" alt="Prof. Mark Coates">
           <h3>Prof. Mark Coates</h3>
           <p>McGill University</p>
       </div>
