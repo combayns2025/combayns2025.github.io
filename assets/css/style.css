@@ -241,13 +241,14 @@ main {
 .speaker {
   text-align: center;
   max-width: 300px;
+  width: 100%; /* Ensures it scales down on smaller screens */
 }
 
 .speaker img {
   width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px;
+  max-width: 150px; /* Adjust this size for smaller screens */
+  height: 150px; /* Keeps the image square */
+  border-radius: 50%; /* Makes the image round */
   object-fit: cover;
   margin-bottom: 15px;
 }
@@ -262,6 +263,29 @@ main {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  #speakers h2 {
+    font-size: 24px;
+  }
+
+  .speakers-container {
+    gap: 15px;
+  }
+
+  .speaker img {
+    max-width: 120px; /* Smaller image size on mobile */
+    height: 120px;
+  }
+
+  .speaker h3 {
+    font-size: 18px;
+  }
+
+  .speaker p {
+    font-size: 14px;
+  }
 }
 
 /* Organizers Section */
