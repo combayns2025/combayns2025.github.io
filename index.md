@@ -51,17 +51,16 @@ title: Home
 <section id="speakers">
   <h2>Speakers</h2>
   <div class="speakers-container">
-      <p>TBA</p>
-      <!-- <div class="speaker">
-          <img src="/assets/images/placeholder.png" alt="Speaker 1">
-          <h3>First speaker</h3>
-          <p>First speaker bio</p>
+      <div class="speaker">
+          <img src="/assets/images/coates.jpeg" alt="Prof. Mark Coates">
+          <h3>Prof. Mark Coates</h3>
+          <p>McGill University</p>
       </div>
       <div class="speaker">
           <img src="/assets/images/placeholder.png" alt="Speaker 2">
           <h3>Second speaker</h3>
-          <p>Second speaker bio</p>
-      </div> -->
+          <p>TBA</p>
+      </div>
   </div>
 </section>
 
