@@ -276,8 +276,8 @@ main {
   }
 
   .speaker img {
-    max-width: 120px; /* Smaller image size on mobile */
-    height: 120px;
+    max-width: 180px; /* Smaller image size on mobile */
+    height: 180px;
   }
 
   .speaker h3 {
