@@ -251,6 +251,7 @@ main {
   border-radius: 50%; /* Makes the image round */
   object-fit: cover;
   margin-bottom: 15px;
+  image-rendering: crisp-edges; /* This can help in certain situations */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
