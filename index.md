@@ -58,7 +58,7 @@ title: Home
       </div>
       <div class="speaker">
           <img src="/assets/images/lutzeyer.png" alt="Prof. Johannes Lutzeyer">
-          <h3>Prof. Johannes Lutzeyer</h3>
+          <h3>Dr. Johannes Lutzeyer</h3>
           <p>École Polytechnique</p>
       </div>
   </div>
