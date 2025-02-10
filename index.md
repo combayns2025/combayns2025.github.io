@@ -58,8 +58,8 @@ title: Home
       </div>
       <div class="speaker">
           <img src="/assets/images/placeholder.png" alt="Speaker 2">
-          <h3>Second speaker</h3>
-          <p>TBA</p>
+          <h3>Prof. Johannes Lutzeyer</h3>
+          <p>Ecole Polytechnique</p>
       </div>
   </div>
 </section>
