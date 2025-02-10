@@ -57,7 +57,7 @@ title: Home
           <p>McGill University</p>
       </div>
       <div class="speaker">
-          <img src="/assets/images/lutzeyer.png" alt="Prof. Johannes Lutzeyer">
+          <img src="/assets/images/lutzeyer.png" alt="Dr. Johannes Lutzeyer">
           <h3>Dr. Johannes Lutzeyer</h3>
           <p>École Polytechnique</p>
       </div>
