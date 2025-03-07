@@ -17,7 +17,7 @@ title: Home
     <ul>
       <li><strong>Paper Submission Deadline:</strong> March 20, 2025</li>
       <li><strong>Notification of Acceptance:</strong> TBD</li>
-      <li><strong>Workshop Dates: </strong>June 2, 2025</li>
+      <li><strong>Workshop Dates: </strong>July 2, 2025</li>
     </ul>
 </section>
 
