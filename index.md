@@ -15,7 +15,7 @@ title: Home
     <p>Be sure to read the submission instructions carefully!</p><br>
     <h2>Important Dates</h2>
     <ul>
-      <li><strong>Paper Submission Deadline:<strike>March 20, 2025</strike> </strong>March 27, 2025</li>
+      <li><strong>Paper Submission Deadline:</strong><strike>March 20, 2025</strike> <strong>March 27, 2025</strong></li>
       <li><strong>Notification of Acceptance:</strong> TBD</li>
       <li><strong>Workshop Dates: </strong>July 2, 2025</li>
     </ul>
