@@ -34,7 +34,7 @@ permalink: /call-for-papers/
  <h2>Important Dates</h2>
  <p><ul>
    <li><strong>Submission Deadline:</strong> <strike>March 20, 2025</strike> <strong>March 27, 2025</strong></li>
-   <li><strong>Notification of Acceptance:</strong> TBD</li>
+   <li><strong>Notification of Acceptance:</strong> <strong>April 15, 2025</strong></li>
    <li><strong>Camera-ready Deadline:</strong> TBD</li>
    <li><strong>Workshop dates:</strong> June 30 - July 5, 2025</li>
  </ul></p>
