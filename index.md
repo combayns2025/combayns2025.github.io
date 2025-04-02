@@ -111,7 +111,7 @@ title: Home
           <li><strong>Steve Azzolin</strong><br>University of Trento</li>
           <li><strong>Maria Sofia Bucarelli</strong><br>Sapienza University</li>
           <li><strong>Andrea Cini</strong><br>USI</li>
-          <li><strong>Martina Cinquini</strong><br>University of Pisa</li>
+          <li><strong>Alessandro Trenta</strong><br>University of Pisa</li>
       </ul>
       <ul class="committee-column">
           <li><strong>Michele Fontanesi</strong><br>University of Pisa</li>
