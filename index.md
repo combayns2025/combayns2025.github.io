@@ -116,20 +116,20 @@ title: Home
           <li><strong>Michele Fontanesi</strong><br>University of Pisa</li>
           <li><strong>Claudio Gallicchio</strong><br>University of Pisa</li>
           <li><strong>Julia Gastinger</strong><br>Uni Mannheim</li>
+          <li><strong>Filippo Grazioli</strong><br>GSK</li>
           <li><strong>Jimwoo Kim</strong><br>KAIST</li>
-          <li><strong>Lorenzo Loconte</strong><br>Uni Edimburgh</li>
       </ul>
       <ul class="committee-column">
+          <li><strong>Lorenzo Loconte</strong><br>Uni Edimburgh</li>
           <li><strong>Manuel Madeira</strong><br>EPFL</li>
           <li><strong>Ivan Marisca</strong><br>USI</li>
           <li><strong>Riccardo Massidda</strong><br>University of Pisa</li>
           <li><strong>Luca Miglior</strong><br>University of Pisa</li>
-          <li><strong>Matteo Ninniri</strong><br>University of Pisa</li>
       </ul>
       <ul class="committee-column">
+          <li><strong>Matteo Ninniri</strong><br>University of Pisa</li>
           <li><strong>Yiming Qin</strong><br>EPFL</li>
           <li><strong>Matteo Tolloso</strong><br>University of Pisa</li>
-          <li><strong>Alessandro Trenta</strong><br>University of Pisa</li>
           <li><strong>Daniele Zambon</strong><br>USI</li>
       </ul>
   </div>
