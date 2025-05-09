@@ -26,8 +26,7 @@ title: Home
 
   <div class="program-container">
     <div class="program-event">
-        <h3>Introduction and dinner plans (QR Code + Google Form)</h3>
-        <p><strong>Time:</strong> 11:15 AM - 11:30 AM</p>
+        <h3>11:15 AM - 11:30 AM Introduction and dinner plans (QR Code + Google Form)</h3>
     </div>
 <!--     <div class="program-event">
         <h3>Event</h3>
