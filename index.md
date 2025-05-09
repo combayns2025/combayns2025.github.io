@@ -55,13 +55,13 @@ title: Home
         <h3>[16:30 AM - 16:50 AM] Towards solving Kolmogorov-Arnold Theorem using Variational Optimization</h3>
     </div>
     <div class="program-event">
-        <h3>[16:50 AM - 17:10 AM] A Conditional Energy-Based Model For Molecular Property Optimization</h3>
+        <h3>[16:50 AM - 17:10 AM]</h3> A Conditional Energy-Based Model For Molecular Property Optimization
     </div>
     <div class="program-event">
-        <h3>[17:10 AM - 18:00 AM] Panel Discussion</h3>
+        <h3>[17:10 AM - 18:00 AM]</h3> Panel Discussion
     </div>
     <div class="program-event">
-        <h3>[18:00 AM - ] Conclusions and dinner location</h3>
+        <h3>[18:00 AM - ]</h3> Conclusions and dinner location
     </div>
   </div>
 </section>
