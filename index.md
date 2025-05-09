@@ -76,7 +76,7 @@ title: Home
       <div class="schedule-item">
         <p class="title">Conclusions and dinner location</p>
         <p class="time">18:00</p>
-      </div>   
+      </div>
   </div>
 </section>
 
