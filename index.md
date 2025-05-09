@@ -22,22 +22,20 @@ title: Home
 </section>
 
 
+
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
     <div class="program-event single-card">
-      <!-- Row 1 -->
       <div class="schedule-item">
-        <span class="time">11:15 – 11:30</span>
-        <span class="title">Introduction and dinner plans</span>
+        <p class="title">Welcome & Opening Remarks</p>
+        <p class="time">09:00 – 09:30</p>
       </div>
-      <!-- Row 2 -->
+      <!-- Event 2 -->
       <div class="schedule-item">
-        <span class="time">11:30 – 12:30</span>
-        <span class="title">Keynote talk by Prof. Coates</span>
+        <p class="title">Keynote: Designing for Accessibility</p>
+        <p class="time">09:30 – 10:15</p>
       </div>
-      <!-- …add more rows as needed… -->
-    </div>
   </div>
 </section>
 
