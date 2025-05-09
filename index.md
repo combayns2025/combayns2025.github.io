@@ -22,6 +22,27 @@ title: Home
 </section>
 
 <section id="program">
+  <h2>Workshop Program</h2>
+  <div class="program-container">
+    <!-- Event 1 -->
+    <div class="program-event">
+      <h3>09:00 – 09:30</h3>
+      <p>Welcome & Opening Remarks</p>
+    </div>
+    <!-- Event 2 -->
+    <div class="program-event">
+      <h3>11:15 – 11:30</h3>
+      <p>Introduction and dinner plans</p>
+    </div>
+    <!-- Event 3 -->
+    <div class="program-event">
+      <h3>11:30 – 12:30</h3>
+      <p>Keynote talk by Prof. Coates</p>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="program">
   <h2>Program</h2>
   <div class="program-container">
     <div class="program-event">
@@ -32,7 +53,7 @@ title: Home
         Keynote talk by Prof. Coates
     </div>
 
-    <!-- <div class="program-event">
+    <div class="program-event">
         <h3>[12:30 AM - 12:50 AM] Ensembles of Multi-scale Kernel Smoothers for Data Imputation</h3>
     </div>
     <div class="program-event">
