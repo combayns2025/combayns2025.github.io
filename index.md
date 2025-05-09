@@ -21,23 +21,22 @@ title: Home
     </ul>
 </section>
 
+
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
-    <!-- Event 1 -->
     <div class="program-event">
-      <h3>09:00 – 09:30</h3>
-      <p>Welcome & Opening Remarks</p>
-    </div>
-    <!-- Event 2 -->
-    <div class="program-event">
-      <h3>11:15 – 11:30</h3>
-      <p>Introduction and dinner plans</p>
-    </div>
-    <!-- Event 3 -->
-    <div class="program-event">
-      <h3>11:30 – 12:30</h3>
-      <p>Keynote talk by Prof. Coates</p>
+      <ul class="schedule-list">
+        <li>
+          <span class="time">11:15 – 11:30</span>
+          <span class="title">Introduction and dinner plans</span>
+        </li>
+        <li>
+          <span class="time">11:30 – 12:30</span>
+          <span class="title">Keynote talk by Prof. Coates</span>
+        </li>
+        <!-- …more events… -->
+      </ul>
     </div>
   </div>
 </section>
