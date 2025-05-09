@@ -24,9 +24,6 @@ title: Home
 <section id="program">
   <h2>Program</h2>
 
-11.30-12.30: Keynote talk by Prof. Coates (45 min + 15 Q/A)
-12.30-12.50: Ensembles of Multi-scale Kernel Smoothers for Data Imputation (15 min + 5 Q/A)
-13.00-14.00 Lunch
 14.00-15.00 Keynote talk by Dr. Lutzeyer
 15.00-15.20: Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies
 15.20-15.40: BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling
@@ -47,6 +44,36 @@ title: Home
     </div>
       <div class="program-event">
         <h3>[12:30 AM - 12:50 AM] Ensembles of Multi-scale Kernel Smoothers for Data Imputation</h3>
+    </div>
+    <div class="program-event">
+        <h3>[13:00 AM - 14:00 AM] Lunch
+    </div>
+    <div class="program-event">
+        <h3>[14:00 AM - 15:00 AM] Keynote talk by Dr. Lutzeyer
+    </div>
+    <div class="program-event">
+        <h3>[15:00 AM - 15:20 AM] Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies
+    </div>
+    <div class="program-event">
+        <h3>[15:20 AM - 15:40 AM] BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling
+    </div>
+    <div class="program-event">
+        <h3>[15:40 AM - 16:00 AM] On Learning the Width of Neural Networks
+    </div>
+    <div class="program-event">
+        <h3>[16:00 AM - 16:30 AM] Tea Break
+    </div>
+    <div class="program-event">
+        <h3>[16:30 AM - 16:50 AM] Towards solving Kolmogorov-Arnold Theorem using Variational Optimization
+    </div>
+    <div class="program-event">
+        <h3>[16:50 AM - 17:10 AM] A Conditional Energy-Based Model For Molecular Property Optimization
+    </div>
+    <div class="program-event">
+        <h3>[17:10 AM - 18:00 AM] Panel Discussion
+    </div>
+    <div class="program-event">
+        <h3>[18:00 AM - ] Conclusions and dinner location
     </div>
 <!--     <div class="program-event">
         <h3>Event</h3>
