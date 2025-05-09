@@ -90,9 +90,9 @@ title: Home
     </div>
     <div class="program-event">
         <h3>[18:00 AM - ]</h3> Conclusions and dinner location
-    </div> -->
+    </div> 
   </div>
-</section>
+</section>-->
 
 <!-- Speakers Section -->
 <section id="speakers">
