@@ -34,35 +34,36 @@ title: Home
         <h3>[12:30 AM - 12:50 AM] Ensembles of Multi-scale Kernel Smoothers for Data Imputation</h3>
     </div>
     <div class="program-event">
-        <h3>[13:00 AM - 14:00 AM] Lunch
+        <h3>[13:00 AM - 14:00 AM] Lunch</h3>
     </div>
     <div class="program-event">
-        <h3>[14:00 AM - 15:00 AM] Keynote talk by Dr. Lutzeyer
+        <h3>[14:00 AM - 15:00 AM] Keynote talk by Dr. Lutzeyer</h3>
     </div>
     <div class="program-event">
-        <h3>[15:00 AM - 15:20 AM] Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies
+        <h3>[15:00 AM - 15:20 AM] Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies</h3>
     </div>
     <div class="program-event">
-        <h3>[15:20 AM - 15:40 AM] BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling
+        <h3>[15:20 AM - 15:40 AM] BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling</h3>
     </div>
     <div class="program-event">
-        <h3>[15:40 AM - 16:00 AM] On Learning the Width of Neural Networks
+        <h3>[15:40 AM - 16:00 AM] On Learning the Width of Neural Networks</h3>
     </div>
     <div class="program-event">
-        <h3>[16:00 AM - 16:30 AM] Tea Break
+        <h3>[16:00 AM - 16:30 AM] Tea Break</h3>
     </div>
     <div class="program-event">
-        <h3>[16:30 AM - 16:50 AM] Towards solving Kolmogorov-Arnold Theorem using Variational Optimization
+        <h3>[16:30 AM - 16:50 AM] Towards solving Kolmogorov-Arnold Theorem using Variational Optimization</h3>
     </div>
     <div class="program-event">
-        <h3>[16:50 AM - 17:10 AM] A Conditional Energy-Based Model For Molecular Property Optimization
+        <h3>[16:50 AM - 17:10 AM] A Conditional Energy-Based Model For Molecular Property Optimization</h3>
     </div>
     <div class="program-event">
-        <h3>[17:10 AM - 18:00 AM] Panel Discussion
+        <h3>[17:10 AM - 18:00 AM] Panel Discussion</h3>
     </div>
     <div class="program-event">
-        <h3>[18:00 AM - ] Conclusions and dinner location
+        <h3>[18:00 AM - ] Conclusions and dinner location</h3>
     </div>
+  </div>
 </section>
 
 <!-- Speakers Section -->
