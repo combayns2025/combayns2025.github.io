@@ -25,21 +25,27 @@ title: Home
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
-    <div class="program-event">
-      <ul class="schedule-list">
-        <li>
-          <span class="time">11:15 – 11:30</span>
-          <span class="title">Introduction and dinner plans</span>
-        </li>
-        <li>
-          <span class="time">11:30 – 12:30</span>
-          <span class="title">Keynote talk by Prof. Coates</span>
-        </li>
-        <!-- …more events… -->
-      </ul>
+    <div class="program-event single-card">
+      <!-- Row 1 -->
+      <div class="schedule-item">
+        <span class="time">09:00 – 09:30</span>
+        <span class="title">Welcome & Opening Remarks</span>
+      </div>
+      <!-- Row 2 -->
+      <div class="schedule-item">
+        <span class="time">09:30 – 10:15</span>
+        <span class="title">Keynote: Designing for Accessibility</span>
+      </div>
+      <!-- Row 3 -->
+      <div class="schedule-item">
+        <span class="time">10:15 – 10:30</span>
+        <span class="title">Coffee Break</span>
+      </div>
+      <!-- …add more rows as needed… -->
     </div>
   </div>
 </section>
+
 
 <!-- <section id="program">
   <h2>Program</h2>
