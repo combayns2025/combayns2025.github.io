@@ -26,13 +26,11 @@ title: Home
 
   <div class="program-container">
     <p>TBD</p>
-    <!-- <div class="program-event">
-        <h3>Event</h3>
-        <p><strong>Time:</strong> 9:00 AM - 10:00 AM</p>
-        <p><strong>Place:</strong> event place</p>
-        <p><strong>Details:</strong> more details on the event</p>
-    </div>
     <div class="program-event">
+        <h3>Introduction and dinner plans (QR Code + Google Form)</h3>
+        <p><strong>Time:</strong> 11:15 AM - 11:30 AM</p>
+    </div>
+<!--     <div class="program-event">
         <h3>Event</h3>
         <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p>
         <p><strong>Place:</strong> event place</p>
