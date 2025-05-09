@@ -27,7 +27,8 @@ title: Home
     <div class="program-event">
         <h3>11:15 AM - 11:30 AM</h3> 
         Introduction and dinner plans
-        <h3>[11:30 AM - 12:30 AM]</h3> 
+        <p> </p>
+        <h3>11:30 AM - 12:30 AM</h3> 
         Keynote talk by Prof. Coates
     </div>
 
