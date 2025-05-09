@@ -21,24 +21,68 @@ title: Home
     </ul>
 </section>
 
-
-
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
     <div class="program-event single-card">
       <div class="schedule-item">
-        <p class="title">Welcome & Opening Remarks</p>
-        <p class="time">09:00 – 09:30</p>
+        <p class="title">Introduction and dinner plans</p>
+        <p class="time">11:15 – 11:30</p>
       </div>
-      <!-- Event 2 -->
       <div class="schedule-item">
-        <p class="title">Keynote: Designing for Accessibility</p>
-        <p class="time">09:30 – 10:15</p>
+        <p class="title">Keynote talk by Prof. Coates</p>
+        <p class="time">11:30 – 12:30</p>
       </div>
+      <div class="schedule-item">
+        <p class="title">Ensembles of Multi-scale Kernel Smoothers for Data Imputation</p>
+        <p class="time">12:30 – 12:50</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Lunch</h3></p>
+        <p class="time">13:00 – 14:00</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Keynote talk by Dr. Lutzeyer</p>
+        <p class="time">14:00 – 15:00</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies</p>
+        <p class="time">15:00 – 15:20</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling</p>
+        <p class="time">15:20 – 15:40</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">On Learning the Width of Neural Networks</p>
+        <p class="time">15:40 – 16:00</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Tea Break</p>
+        <p class="time">16:00 – 16:30</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Towards solving Kolmogorov-Arnold Theorem using Variational Optimization</p>
+        <p class="time">16:30 – 16:50</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">A Conditional Energy-Based Model For Molecular Property Optimization</p>
+        <p class="time">16:50 – 17:10</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Panel discussion</p>
+        <p class="time">17:10 – 18:00</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Panel discussion</p>
+        <p class="time">17:10 – 18:00</p>
+      </div>
+      <div class="schedule-item">
+        <p class="title">Conclusions and dinner location</p>
+        <p class="time">18:00</p>
+      </div>   
   </div>
 </section>
-
 
 <!-- <section id="program">
   <h2>Program</h2>
