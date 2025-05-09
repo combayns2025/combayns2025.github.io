@@ -30,7 +30,7 @@ title: Home
     <div class="program-event">
         <h3>[11:30 AM - 12:30 AM] Keynote talk by Prof. Coates</h3>
     </div>
-      <div class="program-event">
+    <div class="program-event">
         <h3>[12:30 AM - 12:50 AM] Ensembles of Multi-scale Kernel Smoothers for Data Imputation</h3>
     </div>
     <div class="program-event">
@@ -63,19 +63,6 @@ title: Home
     <div class="program-event">
         <h3>[18:00 AM - ] Conclusions and dinner location
     </div>
-<!--     <div class="program-event">
-        <h3>Event</h3>
-        <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p>
-        <p><strong>Place:</strong> event place</p>
-        <p><strong>Details:</strong> more details on the event</p>
-    </div>
-    <div class="program-event">
-        <h3>Event</h3>
-        <p><strong>Time:</strong> 1:30 PM - 3:00 PM</p>
-        <p><strong>Place:</strong> event place</p>
-        <p><strong>Details:</strong> more details on the event</p>
-    </div> -->
-  </div>
 </section>
 
 <!-- Speakers Section -->
