@@ -432,3 +432,36 @@ main {
   color: #94d2bd; /* Add a hover color for the icons */
 }
 
+/* Make the single card hold a list of events */
+.schedule-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each list-item is a row: time on the left, title on the right */
+.schedule-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Remove bottom border on last item */
+.schedule-list li:last-child {
+  border-bottom: none;
+}
+
+/* Time styling */
+.schedule-list .time {
+  font-weight: 700;
+  color: #005f73;
+}
+
+/* Title styling */
+.schedule-list .title {
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
