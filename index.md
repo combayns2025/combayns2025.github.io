@@ -25,7 +25,6 @@ title: Home
   <h2>Program</h2>
 
   <div class="program-container">
-    <p>TBD</p>
     <div class="program-event">
         <h3>Introduction and dinner plans (QR Code + Google Form)</h3>
         <p><strong>Time:</strong> 11:15 AM - 11:30 AM</p>
