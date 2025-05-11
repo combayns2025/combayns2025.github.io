@@ -66,16 +66,16 @@ title: Home
         <p class="time">16:30 – 16:50</p>
       </div>
       <div class="schedule-item">
-        <p class="title">A Conditional Energy-Based Model For Molecular Property Optimization</p>
-        <p class="time">16:50 – 17:10</p>
+        <p class="title">Small break</p>
+        <p class="time">16:50 – 17:00</p>
       </div>
       <div class="schedule-item">
         <p class="title">Panel discussion</p>
-        <p class="time">17:10 – 18:00</p>
+        <p class="time">17:00 – 17:50</p>
       </div>
       <div class="schedule-item">
         <p class="title">Conclusions and dinner location</p>
-        <p class="time">18:00</p>
+        <p class="time">17:50-18:00</p>
       </div>
     </div>
   </div>
