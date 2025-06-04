@@ -85,14 +85,14 @@ title: Home
           <img src="/assets/images/coates.png" alt="Prof. Mark Coates">
           <h3>Prof. Mark Coates</h3>
           <p>McGill University</p>
-          <!-- <p>Mark Coates is a Professor in the Department of Electrical and Computer Engineering at McGill University (Montreal, Canada). He received the B.E. degree in computer systems engineering from the University of Adelaide, Australia, in 1995, and a Ph.D. degree in information engineering from the University of Cambridge, U.K., in 1999. He was a research associate and lecturer at Rice University, Texas, from 1999-2001. In 2012-2013, he worked as a Senior Scientist at Winton Capital Management, Oxford, UK. Coates’ research interests include machine learning, statistical signal processing, and Bayesian and Monte Carlo inference.</p> -->
+          <p>Mark Coates is a Professor in the Department of Electrical and Computer Engineering at McGill University (Montreal, Canada). He received the B.E. degree in computer systems engineering from the University of Adelaide, Australia, in 1995, and a Ph.D. degree in information engineering from the University of Cambridge, U.K., in 1999. He was a research associate and lecturer at Rice University, Texas, from 1999-2001. In 2012-2013, he worked as a Senior Scientist at Winton Capital Management, Oxford, UK. Coates’ research interests include machine learning, statistical signal processing, and Bayesian and Monte Carlo inference.</p>
       </div>
       <div class="speaker">
           <img src="/assets/images/lutzeyer.png" alt="Dr. Johannes Lutzeyer">
           <h3>Dr. Johannes Lutzeyer</h3>
           <p>École Polytechnique</p>
-          <!-- <p>Johannes Lutzeyer is an Assistant Professor in the Computer Science Department of École Polytechnique, IP Paris in France since 2022. Previously, he completed a 2.5-year postdoc, under the supervision of Prof. Michalis Vazirgiannis also at École Polytechnique. He obtained his degrees (BSc, MSc and PhD) in the Statistics Section of the Mathematics Department at Imperial College London under the supervision of Prof. Andrew Walden. Johannes works in the area of Graph Representation Learning, specifically on Graph Neural Networks, and has made contributions to the academic literature in this domain with a small number of publications at the ICLR, ICML and NeurIPS conferences among others. 
-          </p> -->
+          <p>Johannes Lutzeyer is an Assistant Professor in the Computer Science Department of École Polytechnique, IP Paris in France since 2022. Previously, he completed a 2.5-year postdoc, under the supervision of Prof. Michalis Vazirgiannis also at École Polytechnique. He obtained his degrees (BSc, MSc and PhD) in the Statistics Section of the Mathematics Department at Imperial College London under the supervision of Prof. Andrew Walden. Johannes works in the area of Graph Representation Learning, specifically on Graph Neural Networks, and has made contributions to the academic literature in this domain with a small number of publications at the ICLR, ICML and NeurIPS conferences among others. 
+          </p>
       </div>
   </div>
 </section>
