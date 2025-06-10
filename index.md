@@ -26,6 +26,158 @@ title: Home
   <h2>Workshop Program</h2>
   <div class="program-container">
     <div class="program-event single-card">
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Introduction and dinner plans</p>
+            <p class="time">11:15 – 11:30</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p>Further details for introduction and dinner plans.</p>
+          <p><a href="#" download>Download relevant info</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Keynote talk by Prof. Coates</p>
+            <p class="time">11:30 – 12:30</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Speaker:</strong> Prof. Mark Coates</p>
+          <p><strong>Affiliation:</strong> McGill University</p>
+          <p><a href="#" download>Download Keynote Abstract (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Ensembles of Multi-scale Kernel Smoothers for Data Imputation</p>
+            <p class="time">12:30 – 12:50</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Authors:</strong> John Doe, Jane Smith</p>
+          <p><a href="#" download>Download Paper (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Lunch</p>
+            <p class="time">13:00 – 14:00</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p>Details about lunch arrangements.</p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Keynote talk by Dr. Lutzeyer</p>
+            <p class="time">14:00 – 15:00</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Speaker:</strong> Dr. Johannes Lutzeyer</p>
+          <p><strong>Affiliation:</strong> École Polytechnique</p>
+          <p><a href="#" download>Download Keynote Abstract (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies</p>
+            <p class="time">15:00 – 15:20</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Authors:</strong> Alice Johnson, Bob Williams</p>
+          <p><a href="#" download>Download Paper (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling</p>
+            <p class="time">15:20 – 15:40</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Authors:</strong> Carol Davis, David Miller</p>
+          <p><a href="#" download>Download Paper (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">On Learning the Width of Neural Networks</p>
+            <p class="time">15:40 – 16:00</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Authors:</strong> Eve Brown, Frank Wilson</p>
+          <p><a href="#" download>Download Paper (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Tea Break</p>
+            <p class="time">16:00 – 16:30</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p>Enjoy a refreshing tea break.</p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Towards solving Kolmogorov-Arnold Theorem using Variational Optimization</p>
+            <p class="time">16:30 – 16:50</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p><strong>Authors:</strong> Grace Taylor, Henry Moore</p>
+          <p><a href="#" download>Download Paper (PDF)</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Panel discussion</p>
+            <p class="time">16:50 – 17:50</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p>Panelists to be announced.</p>
+          <p><a href="#" download>Download Panel Details</a></p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          <div class="schedule-item">
+            <p class="title">Conclusions and dinner location</p>
+            <p class="time">17:50-18:00</p>
+          </div>
+        </summary>
+        <div class="schedule-details">
+          <p>Concluding remarks and information regarding dinner arrangements.</p>
+          <p><a href="#" download>Download Dinner Info</a></p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="program">
+  <h2>Workshop Program</h2>
+  <div class="program-container">
+    <div class="program-event single-card">
       <div class="schedule-item">
         <p class="title">Introduction and dinner plans</p>
         <p class="time">11:15 – 11:30</p>
