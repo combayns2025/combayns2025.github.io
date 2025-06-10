@@ -239,15 +239,29 @@ main {
 
 /* Style for the visible part of the schedule item (the summary content) */
 #program .schedule-item {
-  padding: 16px 20px;
-  border-bottom: none;
   /* --- MODIFICATION STARTS HERE --- */
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  align-items: flex-start; /* Align items to the left within their column */
-  position: relative; /* Needed for absolute positioning of the expand icon */
-  gap: 5px; /* Small gap between stacked items (time and title) */
+  padding: 16px 40px 16px 20px; /* Increased right padding to 40px */
   /* --- MODIFICATION ENDS HERE --- */
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 5px;
+}
+
+/* Add a pseudo-element for the expansion indicator */
+#program summary .schedule-item::after {
+  content: '+';
+  font-size: 24px;
+  color: #005f73;
+  transition: transform 0.2s ease-in-out;
+  position: absolute;
+  /* --- MODIFICATION STARTS HERE --- */
+  right: 15px; /* Adjusted slightly to sit nicely within the increased padding */
+  /* --- MODIFICATION ENDS HERE --- */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Adjust order and spacing for time and title within the grid */
@@ -360,10 +374,12 @@ main {
 /* Responsive adjustments for Program Section */
 @media (max-width: 480px) {
   #program .schedule-item {
-    flex-direction: column; /* Already column now, but good to keep */
+    flex-direction: column;
     align-items: flex-start;
-    padding: 12px 15px;
-    gap: 5px; /* Adjust gap for smaller screens */
+    /* --- MODIFICATION STARTS HERE --- */
+    padding: 12px 30px 12px 15px; /* Increased right padding to 30px for mobile */
+    /* --- MODIFICATION ENDS HERE --- */
+    gap: 5px;
   }
 
   #program .schedule-item .time {
@@ -377,8 +393,10 @@ main {
   }
 
   #program summary .schedule-item::after {
-    position: absolute; /* Keep absolute positioning */
-    right: 15px; /* Adjust right position for mobile padding */
+    position: absolute;
+    /* --- MODIFICATION STARTS HERE --- */
+    right: 10px; /* Adjusted slightly for mobile to sit within increased padding */
+    /* --- MODIFICATION ENDS HERE --- */
     top: 50%;
     transform: translateY(-50%);
   }
