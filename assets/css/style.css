@@ -292,6 +292,11 @@ main {
   text-align: left; /* Align text left */
 }
 
+/* A more robust way to target the abstract paragraph if its consistently the second <p> after authors */
+#program .schedule-details p:nth-of-type(2) {
+    text-align: justify;
+}
+
 #program .schedule-details a {
   color: #0077b6; /* Link color */
   text-decoration: underline;
