@@ -188,7 +188,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px; /* Slightly reduced gap between items for a tighter look */
-  max-width: 960px; /* Increased this value for wider margins */
+  max-width: 1024px; /* Increased this value for wider margins */
   margin: 0 auto; /* Center the container */
   padding-bottom: 30px; /* Add bottom padding to the container itself */
 }
