@@ -21,6 +21,24 @@ title: Home
     </ul>
 </section>
 
+<section id="program" class="py-8 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6"> Workshop Program</h2>
+    <details class="card cursor-pointer p-4 border rounded-lg bg-white shadow-md hover:shadow-lg transition">
+      <summary class="text-xl font-semibold marker:content-['➕'] hover:marker:content-['➖']">
+        Ensembles of Multi-scale Kernel Smoothers for Data Imputation
+      </summary>
+      <div class="mt-2">
+        <p class="text-sm text-gray-700 mb-2">Amit Shreiber, Dalia Fishelov, Neta Rabin</p>
+        <a href="assets/papers/6203.pdf" class="text-blue-600 underline" download>
+          📄 Download paper (PDF)
+        </a>
+      </div>
+    </details>
+  </div>
+</section>
+
+
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
