@@ -29,8 +29,8 @@ title: Home
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>11:15 – 11:30</p>
             <p class="title">Introduction and dinner plans</p>
-            <p class="time">11:15 – 11:30</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -38,11 +38,12 @@ title: Home
           <p><a href="#" download>Download relevant info</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>11:30 – 12:30</p>
             <p class="title">Keynote talk by Prof. Coates</p>
-            <p class="time">11:30 – 12:30</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -51,11 +52,12 @@ title: Home
           <p><a href="#" download>Download Keynote Abstract (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>12:30 – 12:50</p>
             <p class="title">Ensembles of Multi-scale Kernel Smoothers for Data Imputation</p>
-            <p class="time">12:30 – 12:50</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -63,22 +65,24 @@ title: Home
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>13:00 – 14:00</p>
             <p class="title">Lunch</p>
-            <p class="time">13:00 – 14:00</p>
           </div>
         </summary>
         <div class="schedule-details">
           <p>Details about lunch arrangements.</p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>14:00 – 15:00</p>
             <p class="title">Keynote talk by Dr. Lutzeyer</p>
-            <p class="time">14:00 – 15:00</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -87,11 +91,12 @@ title: Home
           <p><a href="#" download>Download Keynote Abstract (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>15:00 – 15:20</p>
             <p class="title">Learn to Jump: Adaptive Random Walks for Long-Range Propagation through Graph Hierarchies</p>
-            <p class="time">15:00 – 15:20</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -99,11 +104,12 @@ title: Home
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>15:20 – 15:40</p>
             <p class="title">BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling</p>
-            <p class="time">15:20 – 15:40</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -111,11 +117,12 @@ title: Home
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>15:40 – 16:00</p>
             <p class="title">On Learning the Width of Neural Networks</p>
-            <p class="time">15:40 – 16:00</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -123,22 +130,24 @@ title: Home
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>16:00 – 16:30</p>
             <p class="title">Tea Break</p>
-            <p class="time">16:00 – 16:30</p>
           </div>
         </summary>
         <div class="schedule-details">
           <p>Enjoy a refreshing tea break.</p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>16:30 – 16:50</p>
             <p class="title">Towards solving Kolmogorov-Arnold Theorem using Variational Optimization</p>
-            <p class="time">16:30 – 16:50</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -146,11 +155,12 @@ title: Home
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>16:50 – 17:50</p>
             <p class="title">Panel discussion</p>
-            <p class="time">16:50 – 17:50</p>
           </div>
         </summary>
         <div class="schedule-details">
@@ -158,11 +168,12 @@ title: Home
           <p><a href="#" download>Download Panel Details</a></p>
         </div>
       </details>
+
       <details>
         <summary>
           <div class="schedule-item">
+            <p class="time"><span class="icon-clock"></span>17:50-18:00</p>
             <p class="title">Conclusions and dinner location</p>
-            <p class="time">17:50-18:00</p>
           </div>
         </summary>
         <div class="schedule-details">
