@@ -122,7 +122,7 @@ missing data exist in the literature, such as deleting observations that contain
         </summary>
         <div class="schedule-details">
           <p><strong>Authors:</strong> Federico Errica, Henrik Christiansen, Viktor Zaverkin, Mathias Niepert, Francesco Alesiani</p>
-          <p><strong>Abstract:</strong> We introduce an easy-to-use technique to learn an unbounded width of a neural network’s layer during training. The technique does not rely on alternate optimization nor handcrafted gradient heuristics; rather, it jointly optimizes the width and the parameters of each layer via simple backpropagation. We apply the technique to a broad range of data domains such as tables, images, texts, and graphs, showing how the width adapts to the task’s difficulty. By imposing a soft ordering of importance among neurons, it is also possible to dynamically compress the network with no performance degradation.</p>
+          <p><strong>Abstract:</strong> We introduce an easy-to-use technique to learn an unbounded width of a neural network’s layer during training. The technique does not rely on alternate optimization nor hand-crafted gradient heuristics; rather, it jointly optimizes the width and the parameters of each layer via simple backpropagation. We apply the technique to a broad range of data domains such as tables, images, texts, and graphs, showing how the width adapts to the task’s difficulty. By imposing a soft ordering of importance among neurons, it is also possible to dynamically compress the network with no performance degradation.</p>
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
