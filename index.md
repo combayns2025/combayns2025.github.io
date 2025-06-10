@@ -61,7 +61,7 @@ title: Home
           <p><strong>Authors:</strong> Amit Shreiber, Dalia Fishelov, Neta Rabin</p>
           <p><strong>Abstract:</strong> When collecting a dataset, it usually contains some proportion of incomplete data. Various methods for handling this
 missing data exist in the literature, such as deleting observations that contain missing values, or replacing missing values with the mean of the other observations in the relevant variables. Nevertheless, most of the techniques do not consider the geometric structure of the data both in the row (instance) space and the column (feature) space. In this work, we propose a smoothing or regression procedure that operates both on the row and column space of the data, and refines the approximated model in an iterative manner, following ideas from iterative bias reduction models. We provide a mathematical analysis of the method, as well as test its performance of several datasets with diverse missingness mechanisms. Promising results are seen across all of the missingness types and datasets. Last, the proposed multi-scale approximation is general, and may be beneficial for additional machine learning tasks that process tabular data.</p>
-          <p><a href="#" download>Download Paper (PDF)</a></p>
+          <p><a href="/assets/pdf/enskersmooth.pdf" download>Download Paper (PDF)</a></p>
         </div>
       </details>
       <details>
@@ -97,7 +97,7 @@ missing data exist in the literature, such as deleting observations that contain
         <div class="schedule-details">
           <p><strong>Authors:</strong> Joël Mathys, Federico Errica </p>
           <p><strong>Abstract:</strong> Message-passing architectures struggle to sufficiently model long-range dependencies in node and graph prediction tasks. We propose a novel approach exploiting hierarchical graph structures and adaptive random walks to address this challenge. Our method introduces learnable transition probabilities that decide whether the walk should prefer the original graph or travel across hierarchical shortcuts. On a synthetic long-range task, we demonstrate that our approach can exceed the theoretical bound that constrains traditional approaches operating solely on the original topology. Specifically, walks that prefer the hierarchy achieve the same performance as longer walks on the original graph. These preliminary findings open a promising direction for efficiently processing large graphs while effectively capturing long-range dependencies.</p>
-          <p><a href="#" download>Download Paper (PDF)</a></p>
+          <p><a href="/assets/pdf/learnjump.pdf" download>Download Paper (PDF)</a></p>
         </div>
       </details>
       <details>
@@ -110,7 +110,7 @@ missing data exist in the literature, such as deleting observations that contain
         <div class="schedule-details">
           <p><strong>Authors:</strong> Daniele Castellana, Filippo Maria Bianchi</p>
           <p><strong>Abstract:</strong> We introduce BN-Pool, the first clustering-based pooling method for Graph Neural Networks (GNNs) that adaptively determines the number of supernodes in a coarsened graph. By leveraging a Bayesian non-parametric framework, BN-Pool employs a generative model capable of partitioning graph nodes into an unbounded number of clusters. During training, we learn the node-to-cluster assignments by combining the supervised loss of the downstream task with an unsupervised auxiliary term, which encourages the reconstruction of the original graph topology while penalizing unnecessary proliferation of clusters. This adaptive strategy allows BN-Pool to automatically discover an optimal coarsening level, offering enhanced flexibility and removing the need to specify sensitive pooling ratios. We show that BN-Pool achieves superior performance across diverse benchmarks.</p>
-          <p><a href="#" download>Download Paper (PDF)</a></p>
+          <p><a href="/assets/pdf/bnpool.pdf" download>Download Paper (PDF)</a></p>
         </div>
       </details>
       <details>
@@ -123,7 +123,7 @@ missing data exist in the literature, such as deleting observations that contain
         <div class="schedule-details">
           <p><strong>Authors:</strong> Federico Errica, Henrik Christiansen, Viktor Zaverkin, Mathias Niepert, Francesco Alesiani</p>
           <p><strong>Abstract:</strong> We introduce an easy-to-use technique to learn an unbounded width of a neural network’s layer during training. The technique does not rely on alternate optimization nor hand-crafted gradient heuristics; rather, it jointly optimizes the width and the parameters of each layer via simple backpropagation. We apply the technique to a broad range of data domains such as tables, images, texts, and graphs, showing how the width adapts to the task’s difficulty. By imposing a soft ordering of importance among neurons, it is also possible to dynamically compress the network with no performance degradation.</p>
-          <p><a href="#" download>Download Paper (PDF)</a></p>
+          <p><a href="/assets/pdf/nnwidth.pdf" download>Download Paper (PDF)</a></p>
         </div>
       </details>
       <details>
@@ -147,7 +147,7 @@ missing data exist in the literature, such as deleting observations that contain
         <div class="schedule-details">
           <p><strong>Authors:</strong> Francesco Alesiani, Federico Errica, Henrik Christiansen</p>
           <p><strong>Abstract:</strong> Kolmogorov Arnold Networks (KANs) are an emerging architecture for building machine learning models. KANs are based on the theoretical foundation of the Kolmogorov-Arnold Theorem and its expansions, which provide an exact representation of a multi-variate continuous bounded function as the composition of a limited number of uni-variate continuous functions. While such theoretical results are powerful, its use as a representation learning alternative to multi-layer perceptron (MLP) hinges on the choice of the number of bases modeling each of the univariate functions. In this work, we show how to address this problem by adaptively learning a potentially infinite number of bases for each univariate function during training. We do so by means of a variational inference optimization problem. Our proposal, called INFINITYKAN, extends the potential applicability of KANs by treating an important hyper-parameter as part of the learning process.</p>
-          <p><a href="#" download>Download Paper (PDF)</a></p>
+          <p><a href="/assets/pdf/infkan.pdf" download>Download Paper (PDF)</a></p>
         </div>
       </details>
       <details>
@@ -159,7 +159,6 @@ missing data exist in the literature, such as deleting observations that contain
         </summary>
         <div class="schedule-details">
           <p>Panelists to be announced.</p>
-          <p><a href="#" download>Download Panel Details</a></p>
         </div>
       </details>
       <details>
@@ -171,7 +170,6 @@ missing data exist in the literature, such as deleting observations that contain
         </summary>
         <div class="schedule-details">
           <p>Concluding remarks and information regarding dinner arrangements.</p>
-          <p><a href="#" download>Download Dinner Info</a></p>
         </div>
       </details>
     </div>
