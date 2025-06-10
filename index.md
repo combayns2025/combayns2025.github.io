@@ -35,7 +35,6 @@ title: Home
         </summary>
         <div class="schedule-details">
           <p>Further details for introduction and dinner plans.</p>
-          <p><a href="#" download>Download relevant info</a></p>
         </div>
       </details>
       <details>
@@ -72,7 +71,7 @@ missing data exist in the literature, such as deleting observations that contain
           </div>
         </summary>
         <div class="schedule-details">
-          <p>Details about lunch arrangements.</p>
+          <p>Let's grab a bite!</p>
         </div>
       </details>
       <details>
