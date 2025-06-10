@@ -34,7 +34,9 @@ title: Home
           </div>
         </summary>
         <div class="schedule-details">
-          <p>Further details for introduction and dinner plans.</p>
+          <p><strong>Join us for dinner!</strong></p>
+          <p>Please scan the QR code below and fill the form:</p>
+          <img src="/assets/images/dinner_qr.jpg" alt="QR Code for Dinner Information" class="dinner-qr-code">
         </div>
       </details>
       <details>
