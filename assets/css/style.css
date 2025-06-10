@@ -332,6 +332,8 @@ main {
 }
 
 /* Speakers Section */
+
+/* Speakers Section */
 #speakers {
   padding: 60px 20px;
   background-color: #f0f8ff;
@@ -350,11 +352,16 @@ main {
   flex-wrap: wrap;
 }
 
-/* Keep this specific rule for affiliations, assuming they are direct children of .speaker */
-.speaker > p { /* Targets the <p> for affiliation, not the bio */
-  text-align: center;
+/* --- AFFILIATION (e.g., "McGill University") - START --- */
+/* This targets the <p> tag directly under .speaker for the affiliation */
+.speaker > p {
+  text-align: center; /* Ensures the affiliation is centered */
   margin-bottom: 15px; /* Add some space below the affiliation */
+  font-size: 16px; /* Ensure font size is consistent */
+  color: #555; /* Ensure color is consistent */
 }
+/* --- AFFILIATION - END --- */
+
 
 .speaker {
   text-align: center; /* Keeps image and name centered */
@@ -382,9 +389,13 @@ main {
 /* --- NEW CSS FOR EXPANDABLE BIOS --- */
 
 .speaker details {
-  text-align: left; /* Aligns the bio content left */
+  /* Removed text-align: left here, as it's now applied to bio-snippet/full */
   margin-top: 10px; /* Space between affiliation and bio */
   padding-bottom: 0; /* Remove default bottom padding of details */
+  /* Added a max-width and centering for the whole details block to ensure bio text column is justified and centered */
+  max-width: 500px; /* Adjust this max-width for the bio column width */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .speaker summary {
@@ -411,6 +422,7 @@ main {
   color: #555;
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify; /* *** IMPORTANT: Justify the snippet text *** */
 }
 
 .speaker .bio-full {
@@ -418,6 +430,12 @@ main {
   color: #555;
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify; /* *** IMPORTANT: Justify the full bio text *** */
+}
+
+/* --- IMPORTANT: Hide the snippet when the details section is open --- */
+.speaker details[open] summary .bio-snippet {
+  display: none;
 }
 
 /* "Read More" / "Read Less" custom link */
@@ -435,10 +453,7 @@ main {
   content: 'Read Less'; /* Text when expanded */
 }
 
-/* Ensure full bio is hidden when collapsed and shown when open */
-.speaker details:not([open]) .bio-full {
-  display: none;
-}
+/* No need for .speaker details:not([open]) .bio-full { display: none; } because details default behavior handles it */
 
 
 @media (max-width: 600px) {
@@ -468,7 +483,17 @@ main {
   .speaker summary::after {
     font-size: 12px;
   }
+
+  /* Adjust bio column width on small screens if needed */
+  .speaker details {
+    max-width: 100%; /* Allow full width on small screens */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px; /* Add some internal padding to bio text */
+    box-sizing: border-box; /* Include padding in width */
+  }
 }
+
 /* Organizers Section */
 #organizers {
   padding: 60px 20px;
