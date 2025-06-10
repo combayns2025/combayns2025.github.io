@@ -22,22 +22,6 @@ title: Home
 </section>
 
 
-
-
-<section id="program" class="py-8 px-4 bg-gray-50">
-  <div class="max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6">Program</h2>
-    <details class="program-card">
-      <summary>Human-Guided Structural Priors for Combinatorial Bayesian Neural Architecture Search</summary>
-      <div>
-        <p>Rohan Chitnis, Josip Djolonga, Gintare Karolina Dziugaite, Daniel M. Roy</p>
-        <a href="assets/papers/human_guided_structural_priors.pdf" download>Download paper (PDF)</a>
-      </div>
-    </details>
-  </div>
-</section>
-
-
 <section id="program">
   <h2>Workshop Program</h2>
   <div class="program-container">
