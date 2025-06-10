@@ -36,7 +36,7 @@ title: Home
         <div class="schedule-details">
           <p><strong>Join us for dinner!</strong></p>
           <p>Please scan the QR code below and fill the form:</p>
-          <img src="/assets/images/dinner_qr.jpg" alt="QR Code for Dinner Information" class="dinner-qr-code">
+          <img src="/assets/images/qr_dinner.jpg" alt="QR Code for Dinner Information" class="dinner-qr-code">
         </div>
       </details>
       <details>
