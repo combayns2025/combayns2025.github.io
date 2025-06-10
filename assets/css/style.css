@@ -173,8 +173,10 @@ main {
 }
 
 /* Program Section */
+
+/* Program Section */
 #program {
-  padding: 60px 20px 60px; /* Increased bottom padding here */
+  padding: 60px 20px 80px; /* Increased bottom padding here */
   background-color: #fff;
   text-align: center;
 }
@@ -188,14 +190,29 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px; /* Slightly reduced gap between items for a tighter look */
-  max-width: 1024px; /* Increased this value for wider margins */
+  max-width: 1024px; /* Increased this value further for more horizontal space */
   margin: 0 auto; /* Center the container */
   padding-bottom: 30px; /* Add bottom padding to the container itself */
 }
 
+/* This rule was likely for a general paragraph inside program-container,
+   but now most p tags are more specifically targeted. Keeping it here
+   if you have any other general p tags that need centering. */
 .program-container p {
   text-align: center;
 }
+
+
+/* Program Section - Expandable Items (single-card might be wrapping .details) */
+/* The .program-event.single-card might be redundant if .details is the primary item now,
+   but keeping it here to ensure existing styling isn't broken if it applies. */
+.program-event.single-card {
+  /* Ensure this element doesn't interfere with the details block styling */
+  /* Remove any background or shadow that might conflict if already applied here */
+  background-color: transparent; /* Or whatever makes sense for your layout */
+  box-shadow: none;
+}
+
 
 #program details {
   margin-bottom: 10px;
@@ -220,22 +237,23 @@ main {
   display: none; /* For Firefox */
 }
 
-/* Style for the visible part of the schedule item */
+/* Style for the visible part of the schedule item (the summary content) */
 #program .schedule-item {
   padding: 16px 20px; /* Add some horizontal padding */
   border-bottom: none; /* Remove border from the summary part */
-  display: flex; /* Use flexbox for layout */
-  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  display: grid; /* Use CSS Grid for better control over stacking items */
+  grid-template-columns: auto 1fr auto; /* Time | Title | Expand Icon */
+  grid-template-rows: auto auto; /* Two rows: Time on first, Title on second */
   align-items: center; /* Vertically align items */
-  justify-content: space-between; /* Push time/icon to left, title to center, expand icon to right */
-  gap: 10px; /* Default gap between flex items */
+  column-gap: 15px; /* Space between columns */
+  row-gap: 5px; /* Small space between time and title */
 }
 
-/* Adjust order and spacing for time and title */
+/* Adjust order and spacing for time and title within the grid */
 #program .schedule-item .time {
-  order: 1; /* Place time first */
-  flex-shrink: 0; /* Prevent time from shrinking too much */
-  margin-right: 15px; /* Space between time and title */
+  grid-column: 1 / 2; /* Place time in the first column */
+  grid-row: 1 / 2; /* Place time in the first row */
+  margin-right: 0; /* Remove previous flex-related margin */
   font-weight: 500; /* Make time slightly bolder */
   color: #005f73; /* Match title color for prominence */
   display: flex; /* Enable flex for icon and text */
@@ -243,10 +261,10 @@ main {
 }
 
 #program .schedule-item .title {
-  order: 2; /* Place title second */
-  flex-grow: 1; /* Allow title to take up remaining space */
+  grid-column: 2 / 3; /* Place title in the second column */
+  grid-row: 2 / 3; /* Place title in the second row */
   text-align: left; /* Ensure title aligns left within its space */
-  margin-right: 15px; /* Space between title and expand icon */
+  margin-right: 0; /* Remove previous flex-related margin */
 }
 
 /* Add the clock icon using a pseudo-element */
@@ -264,8 +282,9 @@ main {
   font-size: 24px;
   color: #005f73;
   transition: transform 0.2s ease-in-out;
-  order: 3; /* Place expansion icon last */
-  flex-shrink: 0; /* Prevent icon from shrinking */
+  grid-column: 3 / 4; /* Place expansion icon in the third column */
+  grid-row: 1 / 3; /* Span both rows */
+  align-self: center; /* Vertically center the icon */
 }
 
 #program details[open] summary .schedule-item::after {
@@ -289,14 +308,15 @@ main {
   margin: 8px 0;
   font-size: 15px;
   color: #444;
-  text-align: left; /* Align text left */
+  text-align: left; /* Keep default for other paragraphs */
 }
 
-/* A more robust way to target the abstract paragraph if its consistently the second <p> after authors */
+/* Specific rule to justify the abstract paragraph if its consistently the second <p> after authors */
 #program .schedule-details p:nth-of-type(2) {
     text-align: justify;
 }
 
+/* Style for download links within schedule details */
 #program .schedule-details a {
   display: inline-block; /* Makes it behave like a block but sit inline */
   background-color: #0077b6; /* A strong blue, matching your navbar/hero */
@@ -320,34 +340,51 @@ main {
   transform: translateY(0); /* Reset lift on active */
 }
 
-/* Responsive adjustments */
+/* Styling for the Dinner QR Code */
+.dinner-qr-code {
+    display: block; /* Make it a block element to allow centering */
+    margin: 20px auto; /* Centers the image horizontally and adds vertical space */
+    max-width: 200px; /* Limits the size of the QR code for good readability and layout */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    border: 1px solid #eee; /* Optional: A very light border for definition */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: A subtle shadow for depth */
+}
+
+
+/* Responsive adjustments for Program Section */
 @media (max-width: 480px) {
   #program .schedule-item {
-    flex-direction: column; /* Stack time, title, and icon on very small screens */
+    /* Adjust grid for smaller screens */
+    grid-template-columns: auto 1fr; /* Time/Icon | Title (no separate column for expand icon) */
+    grid-template-rows: auto auto auto; /* Time | Title | Expand Icon (stacked) */
     align-items: flex-start; /* Align items to the start when stacked */
     padding: 12px 15px;
+    column-gap: 10px;
+    row-gap: 5px;
   }
 
   #program .schedule-item .time {
-    margin-right: 0;
-    margin-bottom: 5px; /* Space between time and title when stacked */
+    grid-column: 1 / 3; /* Time spans both columns */
+    grid-row: 1 / 2; /* First row */
+    margin-bottom: 5px; /* Space below time */
   }
 
   #program .schedule-item .title {
-    margin-right: 0;
-    margin-bottom: 10px; /* Space between title and expand icon when stacked */
+    grid-column: 1 / 3; /* Title spans both columns */
+    grid-row: 2 / 3; /* Second row */
+    margin-bottom: 10px; /* Space below title */
   }
 
   #program summary .schedule-item::after {
-    align-self: flex-end; /* Push the icon to the end of the line */
-    margin-top: -30px; /* Adjust if needed to position correctly after title */
+    grid-column: 2 / 3; /* Place icon in the second column */
+    grid-row: 1 / 2; /* In the first row, aligned to the end */
+    align-self: flex-start; /* Align to the top of its grid cell */
+    justify-self: flex-end; /* Push to the end of its grid cell */
+    margin-top: 0; /* Remove any negative margin */
     margin-right: 0;
   }
 }
 
-/* Speakers Section */
-
-/* Speakers Section */
 /* Speakers Section */
 #speakers {
   padding: 60px 20px;
