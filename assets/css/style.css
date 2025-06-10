@@ -23,12 +23,16 @@ h1, h2 {
 
 /* Navbar Styles */
 .navbar {
-  position: sticky;
+  /* --- MODIFICATION STARTS HERE --- */
+  position: fixed; /* Changed from 'sticky' to 'fixed' */
+  /* --- MODIFICATION ENDS HERE --- */
   top: 0;
   background-color: #005f73; /* Blue shade for navbar */
   z-index: 1000;
   padding: 12px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure it spans the full width, as 'fixed' takes it out of flow */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .navbar-container {
@@ -115,13 +119,16 @@ main {
 }
 
 .hero {
+  /* --- MODIFICATION STARTS HERE --- */
+  padding-top: 60px; /* Add padding to push down the hero section */
+  /* --- MODIFICATION ENDS HERE --- */
   text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #004c47, #0077b6); /* Gradient more similar to navbar colors */
+  padding: 80px 20px; /* Keep its original padding but extend top */
+  background: linear-gradient(135deg, #004c47, #0077b6);
   color: white;
-  margin-top: 0; /* Removed margin-top to eliminate the gap between navbar and hero */
+  margin-top: 0;
   width: 100%;
-  box-sizing: border-box; /* Ensure no horizontal overflow */
+  box-sizing: border-box;
 }
 
 .hero h1 {
@@ -136,6 +143,13 @@ main {
   margin-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    /* Adjust if your mobile navbar height is different */
+    padding-top: 60px; /* Example: Keep same or adjust as needed */
+  }
 }
 
 .custom-link {
