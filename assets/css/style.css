@@ -173,6 +173,31 @@ main {
 }
 
 /* Program Section - Expandable Items */
+/* Program Section */
+#program {
+  padding: 60px 20px 80px; /* Increased bottom padding here */
+  background-color: #fff;
+  text-align: center;
+}
+
+#program h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Slightly reduced gap between items for a tighter look */
+  max-width: 800px; /* Make the container smaller, adjust as desired */
+  margin: 0 auto; /* Center the container */
+  padding-bottom: 30px; /* Add bottom padding to the container itself */
+}
+
+.program-container p {
+  text-align: center;
+}
+
 #program details {
   margin-bottom: 10px;
   border: 1px solid #ddd;
