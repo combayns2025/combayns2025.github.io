@@ -298,12 +298,26 @@ main {
 }
 
 #program .schedule-details a {
-  color: #0077b6; /* Link color */
-  text-decoration: underline;
+  display: inline-block; /* Makes it behave like a block but sit inline */
+  background-color: #0077b6; /* A strong blue, matching your navbar/hero */
+  color: white; /* White text for contrast */
+  padding: 8px 15px; /* Comfortable padding inside the button */
+  border-radius: 5px; /* Slightly rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Medium font weight */
+  margin-top: 15px; /* Space above the button/link */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 #program .schedule-details a:hover {
-  color: #005f73;
+  background-color: #005f73; /* Darker blue on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+#program .schedule-details a:active {
+  background-color: #004c47; /* Even darker on click */
+  transform: translateY(0); /* Reset lift on active */
 }
 
 /* Responsive adjustments */
