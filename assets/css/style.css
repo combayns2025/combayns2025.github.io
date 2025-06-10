@@ -216,38 +216,52 @@ main {
   color: #333;
 }
 
-details.card {
-  margin-bottom: 1rem;
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  transition: box-shadow 0.2s ease;
-}
-
-details.card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-}
-
-details.card[open] {
-  background-color: #f9f9f9;
-}
-
-details.card summary {
+details > summary {
   list-style: none;
   cursor: pointer;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #222; /* Adjust to match your program card text */
+  margin-bottom: 0.5rem;
+  outline: none;
 }
 
-details.card summary::marker {
-  font-size: 1.2em;
-  content: "➕";
+/* Remove default marker */
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
-details.card[open] summary::marker {
-  content: "➖";
+/* Custom arrow indicator (small, subtle) */
+details > summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s ease;
+  color: #666; /* subtle color */
 }
 
+/* Rotate arrow when open */
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Style details content */
+details > div {
+  padding-left: 1.5em; /* indent to match arrow */
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+
+/* Link style inside details */
+details a {
+  color: #0a6efd; /* your link blue */
+  text-decoration: underline;
+  font-weight: 500;
+}
 
 /* Speakers Section */
 #speakers {
