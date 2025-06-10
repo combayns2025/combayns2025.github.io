@@ -217,26 +217,28 @@ main {
 }
 
 details.program-card {
-  background: white;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
-  padding: 1em 1.5em;
-  margin-bottom: 1.5em;
-  font-family: 'Open Sans', sans-serif;
-  color: #444;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1.2em 2em;
+  margin-bottom: 2em;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
   line-height: 1.5;
+  max-width: 700px; /* match your content width */
 }
 
-/* Remove default triangle */
 details.program-card > summary {
-  list-style: none;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #222;
+  cursor: pointer;
+  list-style: none;
   outline: none;
-  margin-bottom: 0.5em;
   user-select: none;
+  margin-bottom: 0.75em;
+  padding-right: 1.5em; /* for spacing, no arrow */
+  position: relative;
 }
 
 /* Remove default marker */
@@ -244,21 +246,36 @@ details.program-card > summary::-webkit-details-marker {
   display: none;
 }
 
-/* Remove any before/after content */
-details.program-card > summary::before,
-details.program-card > summary::after {
-  content: none;
+details.program-card > summary::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1em;
+  height: 1em;
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  border-color: #666;
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.2s ease;
 }
 
-/* Details content */
+/* Rotate arrow on open */
+details.program-card[open] > summary::before {
+  transform: translateY(-50%) rotate(135deg);
+}
+
 details.program-card > div {
-  margin-top: 0.75em;
   font-weight: 400;
   font-size: 1rem;
   color: #444;
+  margin-top: 0.5em;
 }
 
-/* Paper link styling */
+details.program-card p {
+  margin: 0.2em 0 1em 0;
+}
+
 details.program-card a {
   color: #1a73e8;
   font-weight: 600;
@@ -269,7 +286,6 @@ details.program-card a:hover,
 details.program-card a:focus {
   text-decoration: underline;
 }
-
 
 /* Speakers Section */
 #speakers {
