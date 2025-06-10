@@ -407,6 +407,10 @@ main {
 
   .speaker p {
     font-size: 14px;
+    text-align: left; /* Ensure left-align on mobile too */
+    max-width: 100%; /* Allow it to take full width on small screens */
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
