@@ -381,6 +381,10 @@ main {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
+  text-align: left; /* Left-align the bio text */
+  max-width: 500px; /* Limit the width of the bio paragraph for readability */
+  margin-left: auto; /* Center the narrower text block */
+  margin-right: auto; /* Center the narrower text block */
 }
 
 @media (max-width: 600px) {
