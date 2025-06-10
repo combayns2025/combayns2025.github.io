@@ -60,7 +60,9 @@ title: Home
           </div>
         </summary>
         <div class="schedule-details">
-          <p><strong>Authors:</strong> John Doe, Jane Smith</p>
+          <p><strong>Authors:</strong> Amit Shreiber, Dalia Fishelov, Neta Rabin</p>
+          <p><strong>Abstract:</strong> When collecting a dataset, it usually contains some proportion of incomplete data. Various methods for handling this
+missing data exist in the literature, such as deleting observations that contain missing values, or replacing missing values with the mean of the other observations in the relevant variables. Nevertheless, most of the techniques do not consider the geometric structure of the data both in the row (instance) space and the column (feature) space. In this work, we propose a smoothing or regression procedure that operates both on the row and column space of the data, and refines the approximated model in an iterative manner, following ideas from iterative bias reduction models. We provide a mathematical analysis of the method, as well as test its performance of several datasets with diverse missingness mechanisms. Promising results are seen across all of the missingness types and datasets. Last, the proposed multi-scale approximation is general, and may be beneficial for additional machine learning tasks that process tabular data.</p>
           <p><a href="#" download>Download Paper (PDF)</a></p>
         </div>
       </details>
