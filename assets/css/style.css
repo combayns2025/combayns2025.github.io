@@ -172,10 +172,9 @@ main {
   margin: 10px 0;
 }
 
-/* Program Section - Expandable Items */
 /* Program Section */
 #program {
-  padding: 60px 20px 80px; /* Increased bottom padding here */
+  padding: 60px 20px 60px; /* Increased bottom padding here */
   background-color: #fff;
   text-align: center;
 }
@@ -189,7 +188,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px; /* Slightly reduced gap between items for a tighter look */
-  max-width: 800px; /* Make the container smaller, adjust as desired */
+  max-width: 960px; /* Increased this value for wider margins */
   margin: 0 auto; /* Center the container */
   padding-bottom: 30px; /* Add bottom padding to the container itself */
 }
