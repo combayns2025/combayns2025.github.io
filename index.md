@@ -21,20 +21,27 @@ title: Home
     </ul>
 </section>
 
-<section id="program" class="py-8 px-4">
+<section id="program" class="py-8 px-4 bg-gray-50">
   <div class="max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6"> Workshop Program</h2>
-    <details class="card cursor-pointer p-4 border rounded-lg bg-white shadow-md hover:shadow-lg transition">
-      <summary class="text-xl font-semibold marker:content-['➕'] hover:marker:content-['➖']">
-        Ensembles of Multi-scale Kernel Smoothers for Data Imputation
-      </summary>
-      <div class="mt-2">
-        <p class="text-sm text-gray-700 mb-2">Amit Shreiber, Dalia Fishelov, Neta Rabin</p>
-        <a href="assets/papers/6203.pdf" class="text-blue-600 underline" download>
-          📄 Download paper (PDF)
-        </a>
-      </div>
-    </details>
+    <h2 class="text-3xl font-bold mb-6">Program</h2>
+    <div class="space-y-4">
+      <details class="group border border-gray-300 rounded-md bg-white px-4 py-3 transition-shadow hover:shadow">
+        <summary class="cursor-pointer text-lg font-medium list-none flex justify-between items-center">
+          <span>Ensembles of Multi-scale Kernel Smoothers for Data Imputation</span>
+          <svg class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </summary>
+        <div class="mt-2 text-sm text-gray-700">
+          <p class="mb-2">Amit Shreiber, Dalia Fishelov, Neta Rabin</p>
+          <a href="assets/papers/human_guided_structural_priors.pdf" class="text-blue-600 hover:underline" download>
+            📄 Download paper (PDF)
+          </a>
+        </div>
+      </details>
+
+      <!-- Add more paper cards below as needed -->
+    </div>
   </div>
 </section>
 
