@@ -172,7 +172,6 @@ main {
   margin: 10px 0;
 }
 
-/* Program Section */
 /* Program Section - Expandable Items */
 #program details {
   margin-bottom: 10px;
@@ -201,10 +200,38 @@ main {
 #program .schedule-item {
   padding: 16px 20px; /* Add some horizontal padding */
   border-bottom: none; /* Remove border from the summary part */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px; /* Space between title and time */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Push time/icon to left, title to center, expand icon to right */
+  gap: 10px; /* Default gap between flex items */
+}
+
+/* Adjust order and spacing for time and title */
+#program .schedule-item .time {
+  order: 1; /* Place time first */
+  flex-shrink: 0; /* Prevent time from shrinking too much */
+  margin-right: 15px; /* Space between time and title */
+  font-weight: 500; /* Make time slightly bolder */
+  color: #005f73; /* Match title color for prominence */
+  display: flex; /* Enable flex for icon and text */
+  align-items: center; /* Align icon and text vertically */
+}
+
+#program .schedule-item .title {
+  order: 2; /* Place title second */
+  flex-grow: 1; /* Allow title to take up remaining space */
+  text-align: left; /* Ensure title aligns left within its space */
+  margin-right: 15px; /* Space between title and expand icon */
+}
+
+/* Add the clock icon using a pseudo-element */
+.icon-clock::before {
+  content: '\23F1'; /* Unicode character for clock (U+23F1) */
+  font-family: 'Segoe UI Symbol', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif; /* Fallback for symbols */
+  margin-right: 8px; /* Space between icon and time text */
+  font-size: 1.1em; /* Slightly larger icon */
+  vertical-align: middle; /* Align with text */
 }
 
 /* Add a pseudo-element for the expansion indicator */
@@ -213,11 +240,18 @@ main {
   font-size: 24px;
   color: #005f73;
   transition: transform 0.2s ease-in-out;
+  order: 3; /* Place expansion icon last */
+  flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
 #program details[open] summary .schedule-item::after {
   content: '−'; /* Minus sign when expanded */
   transform: rotate(0deg); /* No rotation needed for minus */
+}
+
+/* Optional: subtle striping to break up rows - adjust for flex context */
+#program details:nth-child(odd) {
+  background-color: rgba(0, 95, 115, 0.03); /* Lighter stripe on the overall details block */
 }
 
 /* Style for the expanded details content */
@@ -242,6 +276,32 @@ main {
 #program .schedule-details a:hover {
   color: #005f73;
 }
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  #program .schedule-item {
+    flex-direction: column; /* Stack time, title, and icon on very small screens */
+    align-items: flex-start; /* Align items to the start when stacked */
+    padding: 12px 15px;
+  }
+
+  #program .schedule-item .time {
+    margin-right: 0;
+    margin-bottom: 5px; /* Space between time and title when stacked */
+  }
+
+  #program .schedule-item .title {
+    margin-right: 0;
+    margin-bottom: 10px; /* Space between title and expand icon when stacked */
+  }
+
+  #program summary .schedule-item::after {
+    align-self: flex-end; /* Push the icon to the end of the line */
+    margin-top: -30px; /* Adjust if needed to position correctly after title */
+    margin-right: 0;
+  }
+}
+
 /* Speakers Section */
 #speakers {
   padding: 60px 20px;
