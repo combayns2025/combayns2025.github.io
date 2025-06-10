@@ -350,24 +350,26 @@ main {
   flex-wrap: wrap;
 }
 
-.speakers-container p {
+/* Keep this specific rule for affiliations, assuming they are direct children of .speaker */
+.speaker > p { /* Targets the <p> for affiliation, not the bio */
   text-align: center;
+  margin-bottom: 15px; /* Add some space below the affiliation */
 }
 
 .speaker {
-  text-align: center;
+  text-align: center; /* Keeps image and name centered */
   max-width: 300px;
-  width: 100%; /* Ensures it scales down on smaller screens */
+  width: 100%;
 }
 
 .speaker img {
   width: 100%;
-  max-width: 250px; /* Adjust this size for smaller screens */
-  height: 250px; /* Keeps the image square */
-  border-radius: 50%; /* Makes the image round */
+  max-width: 250px;
+  height: 250px;
+  border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  image-rendering: crisp-edges; /* This can help in certain situations */
+  image-rendering: crisp-edges;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -377,15 +379,67 @@ main {
   margin-bottom: 10px;
 }
 
-.speaker p {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.5;
-  text-align: left; /* Left-align the bio text */
-  max-width: 500px; /* Limit the width of the bio paragraph for readability */
-  margin-left: auto; /* Center the narrower text block */
-  margin-right: auto; /* Center the narrower text block */
+/* --- NEW CSS FOR EXPANDABLE BIOS --- */
+
+.speaker details {
+  text-align: left; /* Aligns the bio content left */
+  margin-top: 10px; /* Space between affiliation and bio */
+  padding-bottom: 0; /* Remove default bottom padding of details */
 }
+
+.speaker summary {
+  list-style: none; /* Remove default triangle icon */
+  cursor: pointer;
+  padding: 0; /* Remove default summary padding */
+  display: flex; /* Allow content and read more to be on same line */
+  justify-content: space-between; /* Push read more to the right */
+  align-items: flex-end; /* Align snippet and read more link */
+}
+
+.speaker summary::-webkit-details-marker {
+  display: none; /* For Chrome/Safari */
+}
+
+.speaker summary::marker {
+  display: none; /* For Firefox */
+}
+
+.speaker .bio-snippet {
+  display: inline; /* Keep it on the same line as "Read More" */
+  margin: 0; /* Remove default paragraph margins */
+  padding-right: 5px; /* Small gap before the "Read More" link */
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.speaker .bio-full {
+  margin: 10px 0 0; /* Adjust margin for full bio */
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* "Read More" / "Read Less" custom link */
+.speaker summary::after {
+  content: 'Read More'; /* Text when collapsed */
+  color: #0077b6; /* Link color */
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap; /* Prevent "Read More" from wrapping */
+  margin-left: 5px;
+  flex-shrink: 0; /* Prevent it from shrinking */
+}
+
+.speaker details[open] summary::after {
+  content: 'Read Less'; /* Text when expanded */
+}
+
+/* Ensure full bio is hidden when collapsed and shown when open */
+.speaker details:not([open]) .bio-full {
+  display: none;
+}
+
 
 @media (max-width: 600px) {
   #speakers h2 {
@@ -397,7 +451,7 @@ main {
   }
 
   .speaker img {
-    max-width: 180px; /* Smaller image size on mobile */
+    max-width: 180px;
     height: 180px;
   }
 
@@ -405,15 +459,16 @@ main {
     font-size: 18px;
   }
 
-  .speaker p {
+  /* Adjustments for mobile bio */
+  .speaker .bio-snippet,
+  .speaker .bio-full {
     font-size: 14px;
-    text-align: left; /* Ensure left-align on mobile too */
-    max-width: 100%; /* Allow it to take full width on small screens */
-    margin-left: 0;
-    margin-right: 0;
+  }
+
+  .speaker summary::after {
+    font-size: 12px;
   }
 }
-
 /* Organizers Section */
 #organizers {
   padding: 60px 20px;
