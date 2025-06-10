@@ -334,6 +334,7 @@ main {
 /* Speakers Section */
 
 /* Speakers Section */
+/* Speakers Section */
 #speakers {
   padding: 60px 20px;
   background-color: #f0f8ff;
@@ -352,16 +353,13 @@ main {
   flex-wrap: wrap;
 }
 
-/* --- AFFILIATION (e.g., "McGill University") - START --- */
-/* This targets the <p> tag directly under .speaker for the affiliation */
+/* This targets the <p> tag directly under .speaker for the affiliation (e.g., "McGill University") */
 .speaker > p {
   text-align: center; /* Ensures the affiliation is centered */
   margin-bottom: 15px; /* Add some space below the affiliation */
   font-size: 16px; /* Ensure font size is consistent */
   color: #555; /* Ensure color is consistent */
 }
-/* --- AFFILIATION - END --- */
-
 
 .speaker {
   text-align: center; /* Keeps image and name centered */
@@ -386,25 +384,25 @@ main {
   margin-bottom: 10px;
 }
 
-/* --- NEW CSS FOR EXPANDABLE BIOS --- */
+/* --- CSS for Expandable Bios within Speakers Section --- */
 
 .speaker details {
-  /* Removed text-align: left here, as it's now applied to bio-snippet/full */
-  margin-top: 10px; /* Space between affiliation and bio */
-  padding-bottom: 0; /* Remove default bottom padding of details */
-  /* Added a max-width and centering for the whole details block to ensure bio text column is justified and centered */
-  max-width: 500px; /* Adjust this max-width for the bio column width */
+  /* This sets the maximum width for the bio text column and centers it */
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px; /* Space between affiliation and bio */
+  padding-bottom: 0;
 }
 
 .speaker summary {
   list-style: none; /* Remove default triangle icon */
   cursor: pointer;
   padding: 0; /* Remove default summary padding */
-  display: flex; /* Allow content and read more to be on same line */
-  justify-content: space-between; /* Push read more to the right */
-  align-items: flex-end; /* Align snippet and read more link */
+  /* These flex properties are intentionally removed to allow inline flow: */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
 }
 
 .speaker summary::-webkit-details-marker {
@@ -416,26 +414,13 @@ main {
 }
 
 .speaker .bio-snippet {
-  display: inline; /* Keep it on the same line as "Read More" */
+  display: inline; /* Ensures it flows naturally on the same line as "Read More" */
   margin: 0; /* Remove default paragraph margins */
-  padding-right: 5px; /* Small gap before the "Read More" link */
+  padding-right: 0; /* No extra padding here */
   color: #555;
   font-size: 16px;
   line-height: 1.5;
-  text-align: justify; /* *** IMPORTANT: Justify the snippet text *** */
-}
-
-.speaker .bio-full {
-  margin: 10px 0 0; /* Adjust margin for full bio */
-  color: #555;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify; /* *** IMPORTANT: Justify the full bio text *** */
-}
-
-/* --- IMPORTANT: Hide the snippet when the details section is open --- */
-.speaker details[open] summary .bio-snippet {
-  display: none;
+  text-align: left; /* Left-align for short snippets, avoids awkward word spacing */
 }
 
 /* "Read More" / "Read Less" custom link */
@@ -445,17 +430,28 @@ main {
   font-weight: bold;
   font-size: 14px;
   white-space: nowrap; /* Prevent "Read More" from wrapping */
-  margin-left: 5px;
-  flex-shrink: 0; /* Prevent it from shrinking */
+  display: inline; /* Makes it flow inline with the snippet text */
+  margin-left: 0.4em; /* Small space after the snippet text to separate it */
 }
 
 .speaker details[open] summary::after {
   content: 'Read Less'; /* Text when expanded */
 }
 
-/* No need for .speaker details:not([open]) .bio-full { display: none; } because details default behavior handles it */
+/* IMPORTANT: Hide the snippet when the details section is open */
+.speaker details[open] summary .bio-snippet {
+  display: none;
+}
 
+.speaker .bio-full {
+  margin: 10px 0 0; /* Adjust margin for full bio */
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify; /* Justify the full bio text */
+}
 
+/* Responsive adjustments for Speakers Section */
 @media (max-width: 600px) {
   #speakers h2 {
     font-size: 24px;
@@ -466,7 +462,7 @@ main {
   }
 
   .speaker img {
-    max-width: 180px;
+    max-width: 180px; /* Smaller image size on mobile */
     height: 180px;
   }
 
@@ -474,7 +470,7 @@ main {
     font-size: 18px;
   }
 
-  /* Adjustments for mobile bio */
+  /* Adjustments for mobile bio font sizes */
   .speaker .bio-snippet,
   .speaker .bio-full {
     font-size: 14px;
@@ -484,13 +480,13 @@ main {
     font-size: 12px;
   }
 
-  /* Adjust bio column width on small screens if needed */
+  /* Adjust bio column width on small screens to take full available width */
   .speaker details {
     max-width: 100%; /* Allow full width on small screens */
     margin-left: 0;
     margin-right: 0;
-    padding: 0 10px; /* Add some internal padding to bio text */
-    box-sizing: border-box; /* Include padding in width */
+    padding: 0 10px; /* Add some internal padding to bio text for readability */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
 }
 
