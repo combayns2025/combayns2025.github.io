@@ -48,7 +48,8 @@ title: Home
         <div class="schedule-details">
           <p><strong>Speaker:</strong> Prof. Mark Coates</p>
           <p><strong>Affiliation:</strong> McGill University</p>
-          <p><a href="#" download>Download Keynote Abstract (PDF)</a></p>
+          <p><strong>Title:</strong> Bayesian Graph Neural Networks and Transformers</p>
+          <p><strong>Abstract:</strong> In numerous settings, ranging from medical diagnosis to quantitative finance, we observe interacting entities and need to make predictions based on the observed relationships. We can represent such data using an annotated graph, with nodes representing the entities and edges depicting the relationships. It is important to develop inference methods that can provide confidence bounds and are robust to graph errors such as missing or spurious edges. In this talk, I will introduce a Bayesian graph learning framework that delivers the desired robustness and uncertainty characterization. Critical to this framework is the specification of a graph model, and I will introduce several candidate options. I will then discuss how this framework can be extended to a state-of-the-art graph transformer and a continuous-kernel graph convolution network. I will conclude by highlighting some of the practical applications of the graph learning methods, including recommender systems and circuit design.</p>
         </div>
       </details>
       <details>
