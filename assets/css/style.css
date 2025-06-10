@@ -184,6 +184,38 @@ main {
   margin-bottom: 30px;
 }
 
+details.card {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+details.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+details.card[open] {
+  background-color: #f9f9f9;
+}
+
+details.card summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details.card summary::marker {
+  font-size: 1.2em;
+  content: "➕";
+}
+
+details.card[open] summary::marker {
+  content: "➖";
+}
+
 .program-container {
   display: flex;
   flex-direction: column;
@@ -485,39 +517,5 @@ main {
     font-size: 14px;
   }
 }
-
-details.card {
-  margin-bottom: 1rem;
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  transition: box-shadow 0.2s ease;
-}
-
-details.card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-}
-
-details.card[open] {
-  background-color: #f9f9f9;
-}
-
-details.card summary {
-  list-style: none;
-  cursor: pointer;
-}
-
-details.card summary::marker {
-  font-size: 1.2em;
-  content: "➕";
-}
-
-details.card[open] summary::marker {
-  content: "➖";
-}
-
-
 
 
