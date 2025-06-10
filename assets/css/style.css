@@ -173,49 +173,75 @@ main {
 }
 
 /* Program Section */
-#program {
-  padding: 60px 20px;
-  background-color: #fff;
-  text-align: center;
-}
-
-#program h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-
-.program-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.program-container p {
-  text-align: center;
-}
-
-.program-event {
-  background-color: #f0f8ff;
+/* Program Section - Expandable Items */
+#program details {
+  margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 20px;
-  text-align: left;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ff; /* Same as program-event background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Lighter shadow for individual items */
+  overflow: hidden; /* Ensures border-radius applies well */
 }
 
-.program-event h3 {
-  margin: 0 0 10px;
-  font-size: 22px;
+#program summary {
+  list-style: none; /* Removes default triangle icon */
+  cursor: pointer;
+  padding: 0; /* Remove default summary padding */
+}
+
+#program summary::-webkit-details-marker {
+  display: none; /* For Chrome/Safari */
+}
+
+#program summary::marker {
+  display: none; /* For Firefox */
+}
+
+/* Style for the visible part of the schedule item */
+#program .schedule-item {
+  padding: 16px 20px; /* Add some horizontal padding */
+  border-bottom: none; /* Remove border from the summary part */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Space between title and time */
+}
+
+/* Add a pseudo-element for the expansion indicator */
+#program summary .schedule-item::after {
+  content: '+'; /* Plus sign when collapsed */
+  font-size: 24px;
+  color: #005f73;
+  transition: transform 0.2s ease-in-out;
+}
+
+#program details[open] summary .schedule-item::after {
+  content: '−'; /* Minus sign when expanded */
+  transform: rotate(0deg); /* No rotation needed for minus */
+}
+
+/* Style for the expanded details content */
+#program .schedule-details {
+  padding: 15px 20px 10px; /* Padding for expanded content */
+  background-color: #e6f2ff; /* Slightly different background for expanded part */
+  border-top: 1px solid #cce0ff; /* Subtle border for separation */
+}
+
+#program .schedule-details p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #444;
+  text-align: left; /* Align text left */
+}
+
+#program .schedule-details a {
+  color: #0077b6; /* Link color */
+  text-decoration: underline;
+}
+
+#program .schedule-details a:hover {
   color: #005f73;
 }
-
-.program-event p {
-  margin: 5px 0;
-  font-size: 16px;
-  color: #333;
-}
-
 /* Speakers Section */
 #speakers {
   padding: 60px 20px;
