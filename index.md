@@ -84,8 +84,9 @@ missing data exist in the literature, such as deleting observations that contain
           </div>
         </summary>
         <div class="schedule-details">
-          <p><strong>Title:</strong> TBD</p>
-          <p><strong>Abstract:</strong> TBD</p>
+          <p><strong>Title:</strong> Avenues for Interaction between Bayesian Methodology and Graph Neural Networks</p>
+          <p><strong>Abstract:</strong> Graph Neural Networks (GNNs) have celebrated many academic and industrial successes in the past years; providing a rich ground for theoretical analysis and achieving state-of-the-art results in several learning tasks. In this talk, I will present work in which we propose a data augmentation scheme using Gaussian Mixture Models in the latent space of the penultimate neural network layer. I will furthermore review associated theoretical results in which we upper bound the generalisation error of GNNs (trained under data augmentation) using their associated Rademacher complexity. Interacting with the learned Euclidean representations of structured data may be a broadly applicable avenue for future research introducing Bayesian methodology to neural approaches. I will conclude my talk by reviewing how Bayesian considerations could naturally extend some of our other recent work on orthonormal weight matrices in GNNs and interaction effects in neighbourhoods in graphs. 
+The majority of the presented work was done by Yassine Abbahaddou, my final-year PhD student, and in collaboration with his co-supervisors Fragkiskos Malliaros, Amine Aboussalah and Michalis Vazirgiannis.</p>
         </div>
       </details>
       <details>
