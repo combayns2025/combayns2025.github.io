@@ -162,7 +162,9 @@ The majority of the presented work was done by Yassine Abbahaddou, my final-year
           </div>
         </summary>
         <div class="schedule-details">
-          <p>Panelists to be announced.</p>
+          <p><strong>Join us for the panel discussion!</strong></p>
+          <p>Please scan the QR code below and submit your own question:</p>
+          <img src="/assets/images/qr_panel.png" alt="QR Code for Panel Questions" class="dinner-qr-code">
         </div>
       </details>
       <details>
