@@ -213,6 +213,11 @@ The majority of the presented work was done by Yassine Abbahaddou, my final-year
   </div>
 </section>
 
+<div class="hero">
+  <h2>!!! Dinner Location and Time !!!</h2>
+  <p>Restaurant "Dar Bruttone Rione Monti", Time: 20:00-20:15</p>
+</div>
+
 <section id="organizers">
   <h2>Workshop Organizers</h2>
   <div class="organizers-container">
